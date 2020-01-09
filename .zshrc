@@ -8,20 +8,23 @@ export ZSH="/home/lazypanda/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="bullet-train"
+
+ZSH_THEME="blinks"
 
 # ZSH Theme Configurations
-BULLETTRAIN_PROMPT_ORDER=(
-	git
-	context
-	dir
-)
+# ZSH_THEME="bullet-train"
 
-BULLETTRAIN_PROMPT_ADD_NEWLINE=true
-BULLETTRAIN_PROMPT_SEPARATE_LINE=false
+# BULLETTRAIN_PROMPT_ORDER=(
+# 	git
+# 	context
+# 	dir
+# )
 
-BULLETTRAIN_CONTEXT_BG=red
-BULLETTRAIN_CONTEXT_FG=default
+# BULLETTRAIN_PROMPT_ADD_NEWLINE=true
+# BULLETTRAIN_PROMPT_SEPARATE_LINE=false
+
+# BULLETTRAIN_CONTEXT_BG=red
+# BULLETTRAIN_CONTEXT_FG=default
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -85,7 +88,7 @@ plugins=(git)
 
 # Use natural scrolling for mousepad
 TOUCHPAD_ID=`xinput list --id-only ELAN1200:00\ 04F3:3066\ Touchpad`
-xinput set-prop ${TOUCHPAD_ID} 301 1
+xinput set-prop ${TOUCHPAD_ID} "libinput Natural Scrolling Enabled" 1
 
 # Self Commands (Alias and such)
 # Useless Commands
@@ -112,12 +115,14 @@ alias f='ranger' # Stands for file
 alias pv='htop'
 alias open='thunar . & disown' # Open File Manager GUI at specified directory
 alias rofi_update='rm ~/.cache/rofi-3.runcache' # Removing ROFI search cache
+alias update_mirror='sudo reflector --verbose --ipv6 --protocol "https" --country CA --country US --fastest 20 --save /etc/pacman.d/mirrorlist'
 
 # Latex Stuff
 alias compdf='latexmk -pdf -pvc -f'
 alias cpsty='cp -r ~/.latexstyle/ .'
 alias sublsty='subl -n ~/.latexstyle/lptex.sty'
 
+# Auto time setting
 alias timeset='timedatectl set'
 
 # Utils Function
