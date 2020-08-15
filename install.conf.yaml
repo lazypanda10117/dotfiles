@@ -1,0 +1,96 @@
+- defaults:
+    link:
+        create: true
+        relink: true
+
+- clean: ['~', '~/.config']
+
+- shell:
+    - [/bin/sh asy/config_private.default.sh]
+    - [python shortcut]
+    - [git submodule update --init --recursive, Installing submodules]
+
+- link:
+    ~/.dotfiles: ''
+    ~/bin:
+    # Shortcuts
+    ~/.config/Shortcuts:
+
+    # ===
+    # Shells
+    # ===
+
+    # bash
+    ~/.bashrc:                              bash/bashrc
+    ~/.bashrc.shortcuts:                    bash/bashrc.shortcuts
+    ~/.bash_profile:                        bash/bash_profile
+    ~/.inputrc:                             bash/inputrc
+    # fish
+    ~/.config/fish:
+
+    # ===
+    # Some Styling
+    # ===
+
+    # xorg
+    ~/.xinitrc:                             X11/xinitrc
+    ~/.config/X11:
+
+    # ===
+    # Editors
+    # ===
+
+    # vim
+    ~/.vim:                                 vim/vim
+    ~/.vimrc:                               vim/vimrc
+    ~/.gvimrc:                              vim/gvimrc
+    # emacs
+    ~/.emacs.d:                             submodules/doom-emacs
+    ~/.config/doom:
+
+    # ===
+    # Workflow
+    # ===
+
+    # i3
+    ~/.config/i3:
+    ~/.config/i3blocks:
+
+    # dwm
+    ~/.config/dwm:
+
+    # ranger
+    ~/.config/ranger:
+
+    # qutebrowser
+    ~/.config/qutebrowser:
+
+    # ===
+    # Others
+    # ===
+
+    # mpv
+    ~/.config/mpv/mpv.conf:                 mpv/mpv.conf
+    ~/.config/mpv/input.conf:               mpv/input.conf
+    ~/.config/mpv/scripts:                  mpv/scripts
+    # asymptote
+    ~/.config/asy:
+    # latex
+    ~/texmf/tex/latex:                      texmf/tex/latex
+    # dunst
+    ~/.config/dunst/dunstrc:                others/dunstrc
+    # zathura
+    ~/.config/zathura/zathurarc:            others/zathurarc
+    # latexmk
+    ~/.config/latexmk/latexmkrc:            others/latexmkrc
+    # redshift
+    ~/.config/redshift.conf:                others/redshift.conf
+    # neofetch
+    ~/.config/neofetch/config:              others/neofetch.conf
+    # compton
+    ~/.config/compton.conf:                 others/compton.conf
+    # pyenv
+    ~/.pyenv:                               submodules/pyenv
+    ~/.pyenv/plugins/pyenv-virtualenv:      pyenv/plugins/pyenv-virtualenv
+    ~/.pyenv/plugins/pyenv-which-ext:       pyenv/plugins/pyenv-which-ext
+
