@@ -1,4 +1,19 @@
+$cleanup_includes_cusdep_generated = 1;
+
+# asy
+sub asy {return system("asy -o \"$_[0]\" \"$_[0]\"");}
+add_cus_dep("asy","eps",0,"asy");
+add_cus_dep("asy","pdf",0,"asy");
+add_cus_dep("asy","tex",0,"asy");
+
+$pdf_mode = 1;
 $pdf_update_method = 1;
 $pdf_previewer = 'evince';
-$latex = 'latex  %O  --shell-escape %S';
-$pdflatex = 'pdflatex  %O  --shell-escape %S';
+$pdf_update_method = 0;
+
+# $latex = 'latex  %O  --shell-escape %S';
+# $pdflatex = 'pdflatex  %O  --shell-escape %S';
+
+$makeindex = 'makeindex -s "~/texmf/tex/latex/local/lptex/twlindex.ist" %O -o %D %S';
+
+push @generated_exts, 'atfi', 'asy', 'aux', 'fls', 'idx', 'ilg', 'ind', 'log', 'out', 'pbsdat', 'pre', 'prc', 'prv', 'synctex.gz', 'thm', 'toc';

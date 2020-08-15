@@ -23,7 +23,8 @@ class BTStatistics:
 
 	def parseDeviceList(self, raw_device_list):
 		device_MAC_list = list()
-		for raw_device_data in str(raw_device_list).splitlines():
+		device_list = raw_device_list.decode("utf-8")
+		for raw_device_data in device_list.splitlines():
 			if raw_device_data == '':
 				continue
 			raw_device_data = raw_device_data.split(' ')
@@ -53,12 +54,16 @@ class BTStatistics:
 	def parseDeviceData(self, func, device, status_list):
 		device_data = dict()
 		raw_device_data = func()
-		for data_line in str(raw_device_data).split('\\n\\t')[1:]: # Ignore the first line with device mac
-			data = data_line.split(': ', 1)
-			identifier = data[0]
-			details = data[1]
-			if identifier in status_list:
-				device_data[identifier] = details
+		parsed_device_data = raw_device_data.decode("utf-8")
+		for data_line in parsed_device_data.splitlines(): 
+			try:
+				data = data_line.split(': ', 1)
+				identifier = data[0].strip() # removing the leading tabs
+				details = data[1]
+				if identifier in status_list:
+					device_data[identifier] = details
+			except:
+				continue
 		return device_data
 
 

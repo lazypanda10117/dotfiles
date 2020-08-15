@@ -29,3 +29,5 @@ else
     start_agent;
 fi
 
+
+export PATH="$HOME/.cargo/bin:$PATH"

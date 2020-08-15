@@ -10,7 +10,7 @@ instance=wlp2s0
 interval=1
 
 [vpn]
-interval=1
+interval=once
 
 [bluetooth]
 interval=1

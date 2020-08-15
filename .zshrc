@@ -1,21 +1,26 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.local/bin
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/hkam/.oh-my-zsh"
+export ZSH="/home/lazypanda/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
 ZSH_THEME="dieter"
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
+# Use natural scrolling for mousepad
+TOUCHPAD_ID=`xinput list --id-only ELAN1200:00\ 04F3:3066\ Touchpad`
+xinput set-prop ${TOUCHPAD_ID} "libinput Natural Scrolling Enabled" 1
+
 # Self Commands (Alias and such)
 # Useless Commands
 alias meaningoflife="echo 'No meaning'"
 alias whatami="echo panda"
-
-# Use natural scrolling for mousepad
-TOUCHPAD_ID=`xinput list --id-only ELAN1200:00\ 04F3:3066\ Touchpad`
-xinput set-prop ${TOUCHPAD_ID} "libinput Natural Scrolling Enabled" 1
 
 # Changing Monitors
 _lMon='eDP-1'
@@ -29,14 +34,11 @@ alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias i3conf='subl ~/.config/i3/config'
 
-# alias spd='sudo systemctl suspend'
 alias wifi='cmst'
 alias bt='bluetoothctl'
 alias music='cmus'
 alias f='ranger' # Stands for file
 alias pv='htop'
-alias lock='dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock' # lock screen for ubuntu
-alias rofi_update='rm ~/.cache/rofi3.druncache' # Removing ROFI search cache
 alias open='thunar . & disown' # Open File Manager GUI at specified directory
 alias rofi_update='rm ~/.cache/rofi-3.runcache' # Removing ROFI search cache
 alias update_mirror='sudo reflector --verbose --ipv6 --protocol "https" --country CA --country US --fastest 20 --save /etc/pacman.d/mirrorlist'
@@ -46,29 +48,29 @@ alias compdf='latexmk -pdf -pvc -f'
 alias cpsty='cp -r ~/.latexstyle/ .'
 alias sublsty='subl -n ~/.latexstyle/lptex.sty'
 
-# School related
-alias uw='ssh hykam@linux.student.cs.uwaterloo.ca'
-alias genCourseStruct='~/.utils/gen_course_struct.sh'
-source ~/.course_alias
-
-# Some VPN commands (for Proton VPN)
-alias vpn='sudo protonvpn-cli'
-alias vpnc='sudo protonvpn-cli --fastest-connect'
-alias vpnr='sudo protonvpn-cli --reconnect'
-alias vpncc='sudo protonvpn-cli --country-connect'
-alias vpnca='sudo protonvpn-cli --country-connect CA'
-alias vpnd='sudo protonvpn-cli --disconnect'
-
 # Auto time setting
 alias timeset='timedatectl set'
 
 # Utils Function
 alias autotimeset='python ~/utils/auto_loc.py'
+alias scratch='~/.utils/scratch.sh'
 alias splitpdf='~/.utils/split_pdf.sh'
 
+# Some VPN commands (for Proton VPN)
+alias vpn='sudo protonvpn'
+alias vpnc='sudo protonvpn connect --fastest'
+alias vpncc='sudo protonvpn connect --cc'
+alias vpnca='sudo protonvpn connect --cc CA'
+alias vpnd='sudo protonvpn disconnect'
 ### END Self Commands
 
+# School related
+alias uw='ssh hykam@linux.student.cs.uwaterloo.ca'
+alias genCourseStruct='~/.utils/gen_course_struct.sh'
+source ~/.course_alias
+
 # Terminal Related
+source ~/.bash_profile
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

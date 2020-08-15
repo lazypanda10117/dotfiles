@@ -1,9 +1,0 @@
-#!/bin/bash
-
-case ${BLOCK_BUTTON} in
-    1) bluetoothctl -- power on  > /dev/null 2>&1  ;;
-	3) bluetoothctl -- power off > /dev/null 2>&1  ;;
-esac
-
-BT_STAT=$(python ~/.config/i3blocks/scripts/bt_stat.py)
-echo -e ${BT_STAT}
