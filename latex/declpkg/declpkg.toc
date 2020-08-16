@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Installation}{2}{section.0.1}%
+\contentsline {section}{\numberline {2}Documentation}{2}{section.0.2}%
+\contentsline {section}{\numberline {3}Implementation}{3}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Lambdas}{3}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Internal helpers}{4}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3}Variables and constants}{5}{subsection.0.3.3}%
+\contentsline {subsection}{\numberline {3.4}Errors}{6}{subsection.0.3.4}%
+\contentsline {subsection}{\numberline {3.5}Internal interfaces}{7}{subsection.0.3.5}%
+\contentsline {subsection}{\numberline {3.6}Internals}{10}{subsection.0.3.6}%
+\contentsline {subsection}{\numberline {3.7}Public interfaces}{13}{subsection.0.3.7}%

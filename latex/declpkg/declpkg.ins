@@ -1,0 +1,17 @@
+\input l3docstrip.tex
+\keepsilent
+\askforoverwritefalse
+\preamble
+---------------------------------------------------------------
+declpkg --- Including packages with dependencies
+Maintained by Ting Wei Liu
+E-mail: tingwei890@gmail.com
+---------------------------------------------------------------
+
+\endpreamble
+\nopostamble
+\usedir{tex/latex/declpkg}
+\generate{
+  \file{\jobname.sty}{\from{\jobname.dtx}{package}}
+}
+\endbatchfile

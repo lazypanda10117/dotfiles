@@ -1,0 +1,4 @@
+# Useless alias
+
+alias meaningoflife="echo 'No meaning'"
+alias whatami="echo panda"

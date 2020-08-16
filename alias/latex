@@ -1,0 +1,3 @@
+# Useful latex alias
+
+alias compdf='latexmk -pdf -pvc -f'

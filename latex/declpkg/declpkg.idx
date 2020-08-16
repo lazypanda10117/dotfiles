@@ -1,0 +1,616 @@
+\indexentry{declpkg={\verbatim@font !\verb*&!\declpkg&}|hdclindex{1}{usage}}{2}
+\indexentry{declpkg={\verbatim@font !\verb*&!\declpkg&}|hdclindex{1}{usage}}{2}
+\indexentry{declpkg={\verbatim@font !\verb*&!\declpkg&}|hdclindex{1}{usage}}{2}
+\indexentry{declpkg={\verbatim@font !\verb*&!\declpkg&}|hdclindex{1}{usage}}{2}
+\indexentry{declpkg={\verbatim@font !\verb*&!\declpkg&}|hdclindex{1}{usage}}{2}
+\indexentry{declpkg={\verbatim@font !\verb*&!\declpkg&}|hdclindex{1}{usage}}{2}
+\indexentry{IncludePackages={\verbatim@font !\verb*&!\IncludePackages&}|hdclindex{2}{usage}}{2}
+\indexentry{IncludePackages={\verbatim@font !\verb*&!\IncludePackages&}|hdclindex{2}{usage}}{2}
+\indexentry{AfterAll={\verbatim@font !\verb*&!\AfterAll&}|hdclindex{3}{usage}}{2}
+\indexentry{BeforeAll={\verbatim@font !\verb*&!\BeforeAll&}|hdclindex{3}{usage}}{2}
+\indexentry{AfterAll={\verbatim@font !\verb*&!\AfterAll&}|hdclindex{3}{usage}}{2}
+\indexentry{BeforeAll={\verbatim@font !\verb*&!\BeforeAll&}|hdclindex{3}{usage}}{2}
+\indexentry{AfterAll={\verbatim@font !\verb*&!\AfterAll&}|hdclindex{3}{usage}}{2}
+\indexentry{BeforeAll={\verbatim@font !\verb*&!\BeforeAll&}|hdclindex{3}{usage}}{2}
+\indexentry{AfterAny={\verbatim@font !\verb*&!\AfterAny&}|hdclindex{4}{usage}}{2}
+\indexentry{BeforeAny={\verbatim@font !\verb*&!\BeforeAny&}|hdclindex{4}{usage}}{2}
+\indexentry{AfterAny={\verbatim@font !\verb*&!\AfterAny&}|hdclindex{4}{usage}}{2}
+\indexentry{BeforeAny={\verbatim@font !\verb*&!\BeforeAny&}|hdclindex{4}{usage}}{2}
+\indexentry{AfterAny={\verbatim@font !\verb*&!\AfterAny&}|hdclindex{4}{usage}}{2}
+\indexentry{BeforeAny={\verbatim@font !\verb*&!\BeforeAny&}|hdclindex{4}{usage}}{2}
+\indexentry{AddOptionsToPackage={\verbatim@font !\verb*&!\AddOptionsToPackage&}|hdclindex{5}{usage}}{2}
+\indexentry{RemoveOptionsToPackage={\verbatim@font !\verb*&!\RemoveOptionsToPackage&}|hdclindex{5}{usage}}{2}
+\indexentry{AddOptionsToPackage={\verbatim@font !\verb*&!\AddOptionsToPackage&}|hdclindex{5}{usage}}{2}
+\indexentry{RemoveOptionsToPackage={\verbatim@font !\verb*&!\RemoveOptionsToPackage&}|hdclindex{5}{usage}}{2}
+\indexentry{RequirePackage={\verbatim@font !\verb*&!\RequirePackage&}|hdclindex{8}{}}{3}
+\indexentry{ProvidesExplPackage={\verbatim@font !\verb*&!\ProvidesExplPackage&}|hdclindex{9}{}}{4}
+\indexentry{RequirePackage={\verbatim@font !\verb*&!\RequirePackage&}|hdclindex{10}{}}{5}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda_counter_int={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda&!\_!\verb*&counter&!\_!\verb*&int&}|hdclindex{11}{main}}{6}
+\indexentry{int commands:=\pkg{int} commands:>int_new:N={\verbatim@font !\verb*&!\int&!\_!\verb*&new:N&}|hdclindex{12}{}}{6}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{13}{main}}{7}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_new:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&new:N&}|hdclindex{14}{}}{7}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda:n&}|hdclindex{15}{main}}{8}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{16}{}}{8}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset:Nn&}|hdclindex{18}{}}{10}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{18}{}}{10}
+\indexentry{int commands:=\pkg{int} commands:>int_use:N={\verbatim@font !\verb*&!\int&!\_!\verb*&use:N&}|hdclindex{21}{}}{13}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda_counter_int={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda&!\_!\verb*&counter&!\_!\verb*&int&}|hdclindex{21}{}}{13}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_const:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&const:Nn&}|hdclindex{25}{}}{17}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{25}{}}{17}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{25}{}}{17}
+\indexentry{int commands:=\pkg{int} commands:>int_gincr:N={\verbatim@font !\verb*&!\int&!\_!\verb*&gincr:N&}|hdclindex{26}{}}{18}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda_counter_int={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda&!\_!\verb*&counter&!\_!\verb*&int&}|hdclindex{26}{}}{18}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{28}{}}{20}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_transient_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&transient&!\_!\verb*&lambda:n&}|hdclindex{29}{main}}{21}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_transient_lambda:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&transient&!\_!\verb*&lambda:nn&}|hdclindex{29}{main}}{21}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{30}{}}{21}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_transient_lambda:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&transient&!\_!\verb*&lambda:Nn&}|hdclindex{30}{}}{21}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda:n&}|hdclindex{32}{}}{23}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_if:NTF={\verbatim@font !\verb*&!\bool&!\_!\verb*&if:NTF&}|hdclindex{34}{}}{25}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_gset_true:N={\verbatim@font !\verb*&!\bool&!\_!\verb*&gset&!\_!\verb*&true:N&}|hdclindex{36}{}}{27}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{41}{}}{32}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_transient_lambda:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&transient&!\_!\verb*&lambda:Nn&}|hdclindex{41}{}}{32}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{43}{}}{34}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{45}{}}{36}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{15}{usage}}{3}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{29}{usage}}{3}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{46}{}}{37}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{46}{}}{37}
+\indexentry{int commands:=\pkg{int} commands:>int_use:N={\verbatim@font !\verb*&!\int&!\_!\verb*&use:N&}|hdclindex{49}{}}{40}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda_counter_int={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda&!\_!\verb*&counter&!\_!\verb*&int&}|hdclindex{49}{}}{40}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_new:N={\verbatim@font !\verb*&!\bool&!\_!\verb*&new:N&}|hdclindex{52}{}}{43}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{52}{}}{43}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{52}{}}{43}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_transient_lambda:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&transient&!\_!\verb*&lambda:Nn&}|hdclindex{54}{}}{45}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{54}{}}{45}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{54}{}}{45}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{55}{}}{46}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{57}{}}{48}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_new_var:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&new&!\_!\verb*&var:Nn&}|hdclindex{58}{main}}{49}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{59}{}}{49}
+\indexentry{cs commands:=\pkg{cs} commands:>cs:w={\verbatim@font !\verb*&!\cs:w&}|hdclindex{61}{}}{51}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_end:={\verbatim@font !\verb*&!\cs&!\_!\verb*&end:&}|hdclindex{61}{}}{51}
+\indexentry{cs commands:=\pkg{cs} commands:>cs:w={\verbatim@font !\verb*&!\cs:w&}|hdclindex{63}{}}{53}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_end:={\verbatim@font !\verb*&!\cs&!\_!\verb*&end:&}|hdclindex{63}{}}{53}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{66}{}}{56}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{67}{main}}{57}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:NnTF={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:NnTF&}|hdclindex{67}{main}}{57}
+\indexentry{prg commands:=\pkg{prg} commands:>prg_new_protected_conditional:Nnn={\verbatim@font !\verb*&!\prg&!\_!\verb*&new&!\_!\verb*&protected&!\_!\verb*&conditional:Nnn&}|hdclindex{68}{}}{57}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_new_var:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&new&!\_!\verb*&var:Nn&}|hdclindex{70}{}}{59}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{71}{}}{60}
+\indexentry{prg commands:=\pkg{prg} commands:>prg_return_false:={\verbatim@font !\verb*&!\prg&!\_!\verb*&return&!\_!\verb*&false:&}|hdclindex{73}{}}{62}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_gput_right:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&gput&!\_!\verb*&right:Nn&}|hdclindex{75}{}}{64}
+\indexentry{prg commands:=\pkg{prg} commands:>prg_return_true:={\verbatim@font !\verb*&!\prg&!\_!\verb*&return&!\_!\verb*&true:&}|hdclindex{76}{}}{65}
+\indexentry{prg commands:=\pkg{prg} commands:>prg_generate_conditional_variant:Nnn={\verbatim@font !\verb*&!\prg&!\_!\verb*&generate&!\_!\verb*&conditional&!\_!\verb*&variant:Nnn&}|hdclindex{79}{}}{68}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{82}{}}{71}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{86}{}}{75}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{87}{main}}{76}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{87}{main}}{76}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{87}{main}}{76}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{87}{main}}{76}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_new:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&new:N&}|hdclindex{88}{}}{76}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_new:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&new:N&}|hdclindex{89}{}}{77}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_new:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&new:N&}|hdclindex{90}{}}{78}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_new:N={\verbatim@font !\verb*&!\clist&!\_!\verb*&new:N&}|hdclindex{91}{}}{79}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_packages_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&packages&!\_!\verb*&seq&}|hdclindex{92}{main}}{80}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_new:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&new:N&}|hdclindex{93}{}}{80}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_queue_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&queue&!\_!\verb*&seq&}|hdclindex{94}{main}}{81}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{94}{main}}{81}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_not_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{94}{main}}{81}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_new:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&new:N&}|hdclindex{95}{}}{81}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_new:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&new:N&}|hdclindex{96}{}}{82}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_new:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&new:N&}|hdclindex{97}{}}{83}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_loaded_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&loaded&!\_!\verb*&seq&}|hdclindex{98}{main}}{84}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_to_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&to&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{98}{main}}{84}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_new:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&new:N&}|hdclindex{99}{}}{84}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_new:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&new:N&}|hdclindex{100}{}}{85}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_add_options_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&add&!\_!\verb*&options&!\_!\verb*&seq&}|hdclindex{101}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_remove_options_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&remove&!\_!\verb*&options&!\_!\verb*&seq&}|hdclindex{101}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_load_after_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&load&!\_!\verb*&after&!\_!\verb*&seq&}|hdclindex{102}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_load_before_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&load&!\_!\verb*&before&!\_!\verb*&seq&}|hdclindex{102}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_coreq_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&coreq&!\_!\verb*&seq&}|hdclindex{103}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_antireq_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&antireq&!\_!\verb*&seq&}|hdclindex{103}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_pre_hook_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&pre&!\_!\verb*&hook&!\_!\verb*&seq&}|hdclindex{104}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_post_hook_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&post&!\_!\verb*&hook&!\_!\verb*&seq&}|hdclindex{104}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_load_reason_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&load&!\_!\verb*&reason&!\_!\verb*&seq&}|hdclindex{105}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_not_load_reason_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&not&!\_!\verb*&load&!\_!\verb*&reason&!\_!\verb*&seq&}|hdclindex{105}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_preorder_graph_children_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&preorder&!\_!\verb*&graph&!\_!\verb*&children&!\_!\verb*&seq&}|hdclindex{106}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_<pkg!>_to_load_parent_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&<pkg!>&!\_!\verb*&to&!\_!\verb*&load&!\_!\verb*&parent&!\_!\verb*&tl&}|hdclindex{107}{main}}{86}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_multiple_declare_error:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&multiple&!\_!\verb*&declare&!\_!\verb*&error:n&}|hdclindex{108}{main}}{86}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{109}{}}{86}
+\indexentry{PackageError={\verbatim@font !\verb*&!\PackageError&}|hdclindex{111}{}}{88}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{113}{}}{90}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_and_should_not_error:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&and&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&error:n&}|hdclindex{119}{main}}{96}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{120}{}}{96}
+\indexentry{PackageError={\verbatim@font !\verb*&!\PackageError&}|hdclindex{122}{}}{98}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{124}{}}{100}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{128}{}}{104}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{128}{}}{104}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{128}{}}{104}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_use:Nnnn={\verbatim@font !\verb*&!\seq&!\_!\verb*&use:Nnnn&}|hdclindex{129}{}}{105}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{130}{}}{106}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{130}{}}{106}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{130}{}}{106}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{131}{}}{107}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{131}{}}{107}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{131}{}}{107}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{132}{}}{108}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{132}{}}{108}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{132}{}}{108}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{133}{}}{109}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{135}{}}{111}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{135}{}}{111}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{135}{}}{111}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_use:Nnnn={\verbatim@font !\verb*&!\seq&!\_!\verb*&use:Nnnn&}|hdclindex{136}{}}{112}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{137}{}}{113}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{137}{}}{113}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{137}{}}{113}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{138}{}}{114}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{138}{}}{114}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{138}{}}{114}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{139}{}}{115}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{139}{}}{115}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{139}{}}{115}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_late_pre_hook_error:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&late&!\_!\verb*&pre&!\_!\verb*&hook&!\_!\verb*&error:nn&}|hdclindex{143}{main}}{119}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{144}{}}{119}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_show:N={\verbatim@font !\verb*&!\cs&!\_!\verb*&show:N&}|hdclindex{146}{}}{121}
+\indexentry{str commands:=\pkg{str} commands:>str_set:Nn={\verbatim@font !\verb*&!\str&!\_!\verb*&set:Nn&}|hdclindex{147}{}}{122}
+\indexentry{str commands:=\pkg{str} commands:>tmpa_str={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&str&}|hdclindex{147}{}}{122}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_to_str:N={\verbatim@font !\verb*&!\cs&!\_!\verb*&to&!\_!\verb*&str:N&}|hdclindex{147}{}}{122}
+\indexentry{cs commands:=\pkg{cs} commands:>cs:w={\verbatim@font !\verb*&!\cs:w&}|hdclindex{147}{}}{122}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_end:={\verbatim@font !\verb*&!\cs&!\_!\verb*&end:&}|hdclindex{147}{}}{122}
+\indexentry{str commands:=\pkg{str} commands:>str_show:N={\verbatim@font !\verb*&!\str&!\_!\verb*&show:N&}|hdclindex{148}{}}{123}
+\indexentry{str commands:=\pkg{str} commands:>tmpa_str={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&str&}|hdclindex{148}{}}{123}
+\indexentry{PackageError={\verbatim@font !\verb*&!\PackageError&}|hdclindex{149}{}}{124}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{151}{}}{126}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_dag_error:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&dag&!\_!\verb*&error:n&}|hdclindex{157}{main}}{132}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{158}{}}{132}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset:Nn&}|hdclindex{160}{}}{134}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{160}{}}{134}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset:Nn&}|hdclindex{161}{}}{135}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{161}{}}{135}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_gclear:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&gclear:N&}|hdclindex{162}{}}{136}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{162}{}}{136}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_do_until:nn={\verbatim@font !\verb*&!\bool&!\_!\verb*&do&!\_!\verb*&until:nn&}|hdclindex{164}{}}{138}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_if_eq_p:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&if&!\_!\verb*&eq&!\_!\verb*&p:NN&}|hdclindex{164}{}}{138}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{164}{}}{138}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{164}{}}{138}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_gput_left:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&gput&!\_!\verb*&left:Nn&}|hdclindex{166}{}}{140}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{166}{}}{140}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{166}{}}{140}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{168}{}}{142}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&set&!\_!\verb*&eq:NN&}|hdclindex{169}{}}{143}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{169}{}}{143}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{172}{}}{146}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{172}{}}{146}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset&!\_!\verb*&eq:NN&}|hdclindex{175}{}}{149}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{175}{}}{149}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{175}{}}{149}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{176}{}}{150}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_gput_left:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&gput&!\_!\verb*&left:Nn&}|hdclindex{179}{}}{153}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{179}{}}{153}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{179}{}}{153}
+\indexentry{PackageError={\verbatim@font !\verb*&!\PackageError&}|hdclindex{181}{}}{155}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{183}{}}{157}
+\indexentry{MessageBreak={\verbatim@font !\verb*&!\MessageBreak&}|hdclindex{187}{}}{161}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{187}{}}{161}
+\indexentry{space={\verbatim@font !\verb*&!\space&}|hdclindex{187}{}}{161}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_use:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&use:Nn&}|hdclindex{188}{}}{162}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\g&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{188}{}}{162}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_option:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&option:nn&}|hdclindex{191}{main}}{165}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_remove_option:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&remove&!\_!\verb*&option:nn&}|hdclindex{191}{main}}{165}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{192}{}}{165}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{194}{}}{167}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{197}{}}{170}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{199}{}}{172}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_load_after:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&load&!\_!\verb*&after:nn&}|hdclindex{201}{main}}{174}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_load_before:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&load&!\_!\verb*&before:nn&}|hdclindex{201}{main}}{174}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{202}{}}{174}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{204}{}}{176}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{207}{}}{179}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{209}{}}{181}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_coreq:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&coreq:nn&}|hdclindex{211}{main}}{183}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_prereq:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&prereq:nn&}|hdclindex{211}{main}}{183}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_postreq:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&postreq:nn&}|hdclindex{211}{main}}{183}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_antireq:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&antireq:nn&}|hdclindex{211}{main}}{183}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{212}{}}{183}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{214}{}}{185}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{217}{}}{188}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_load_before:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&load&!\_!\verb*&before:nn&}|hdclindex{220}{}}{191}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{223}{}}{194}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_load_after:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&load&!\_!\verb*&after:nn&}|hdclindex{226}{}}{197}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{229}{}}{200}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{231}{}}{202}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load:nn&}|hdclindex{233}{main}}{204}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_not_load:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&load:nn&}|hdclindex{233}{main}}{204}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{234}{}}{204}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{236}{}}{206}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{237}{}}{207}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{237}{}}{207}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_if_blank:nTF={\verbatim@font !\verb*&!\tl&!\_!\verb*&if&!\_!\verb*&blank:nTF&}|hdclindex{238}{}}{208}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{238}{}}{208}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{240}{}}{210}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{240}{}}{210}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{242}{}}{212}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{245}{}}{215}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_not_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{245}{}}{215}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_and_should_not_error:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&and&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&error:n&}|hdclindex{247}{}}{217}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{250}{}}{220}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{250}{}}{220}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{252}{}}{222}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_queue_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&queue&!\_!\verb*&seq&}|hdclindex{252}{}}{222}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{256}{}}{226}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{258}{}}{228}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{259}{}}{229}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{259}{}}{229}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_if_blank:nTF={\verbatim@font !\verb*&!\tl&!\_!\verb*&if&!\_!\verb*&blank:nTF&}|hdclindex{260}{}}{230}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{260}{}}{230}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{262}{}}{232}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{262}{}}{232}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{264}{}}{234}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{267}{}}{237}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_concat:NNN={\verbatim@font !\verb*&!\seq&!\_!\verb*&concat:NNN&}|hdclindex{268}{}}{238}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{268}{}}{238}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{268}{}}{238}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_queue_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&queue&!\_!\verb*&seq&}|hdclindex{268}{}}{238}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{269}{}}{239}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{269}{}}{239}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_and_should_not_error:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&and&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&error:n&}|hdclindex{271}{}}{241}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{273}{}}{243}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{275}{}}{245}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_not_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{275}{}}{245}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_pre_hook:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&pre&!\_!\verb*&hook:nn&}|hdclindex{277}{main}}{247}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_post_hook:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&post&!\_!\verb*&hook:nn&}|hdclindex{277}{main}}{247}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{278}{}}{247}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{280}{}}{249}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_loaded_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&loaded&!\_!\verb*&seq&}|hdclindex{280}{}}{249}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_late_pre_hook_error:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&late&!\_!\verb*&pre&!\_!\verb*&hook&!\_!\verb*&error:nn&}|hdclindex{282}{}}{251}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{284}{}}{253}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{284}{}}{253}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{286}{}}{255}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{288}{}}{257}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{292}{}}{261}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{294}{}}{263}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{296}{}}{265}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_loaded_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&loaded&!\_!\verb*&seq&}|hdclindex{296}{}}{265}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{298}{}}{267}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{300}{}}{269}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{303}{}}{272}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_prep_load:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&prep&!\_!\verb*&load:n&}|hdclindex{304}{main}}{273}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{305}{}}{273}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{308}{}}{276}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{308}{}}{276}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset:Nn&}|hdclindex{311}{}}{279}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{311}{}}{279}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{312}{}}{280}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{312}{}}{280}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{312}{}}{280}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{314}{}}{282}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{314}{}}{282}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{314}{}}{282}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{316}{}}{284}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{321}{}}{289}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{322}{}}{290}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{322}{}}{290}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{323}{}}{291}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{323}{}}{291}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{323}{}}{291}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{325}{}}{293}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{325}{}}{293}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{325}{}}{293}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{327}{}}{295}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{330}{}}{298}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{332}{}}{300}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{333}{}}{301}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{333}{}}{301}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{334}{}}{302}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{334}{}}{302}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{334}{}}{302}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{336}{}}{304}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{336}{}}{304}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{336}{}}{304}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{338}{}}{306}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{341}{}}{309}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{344}{}}{312}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{345}{}}{313}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{345}{}}{313}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{346}{}}{314}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{346}{}}{314}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{346}{}}{314}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{348}{}}{316}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{348}{}}{316}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{348}{}}{316}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load:nn&}|hdclindex{350}{}}{318}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{353}{}}{321}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{356}{}}{324}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{357}{}}{325}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{357}{}}{325}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{358}{}}{326}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{358}{}}{326}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{358}{}}{326}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{360}{}}{328}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{360}{}}{328}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{360}{}}{328}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_not_load:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&load:nn&}|hdclindex{362}{}}{330}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{365}{}}{333}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{367}{}}{335}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_load:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&load:n&}|hdclindex{368}{main}}{336}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{369}{}}{336}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{372}{}}{339}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_clear:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&clear:N&}|hdclindex{373}{}}{340}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{373}{}}{340}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{374}{}}{341}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{374}{}}{341}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{375}{}}{342}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{375}{}}{342}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{375}{}}{342}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_set_eq:NN={\verbatim@font !\verb*&!\seq&!\_!\verb*&set&!\_!\verb*&eq:NN&}|hdclindex{377}{}}{344}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{377}{}}{344}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{377}{}}{344}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{377}{}}{344}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_remove_duplicates:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&remove&!\_!\verb*&duplicates:N&}|hdclindex{378}{}}{345}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{378}{}}{345}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{380}{}}{347}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{380}{}}{347}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{381}{}}{348}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{381}{}}{348}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{381}{}}{348}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{383}{}}{350}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{383}{}}{350}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{383}{}}{350}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_remove_all:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&remove&!\_!\verb*&all:Nn&}|hdclindex{385}{}}{352}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{385}{}}{352}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_empty:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&empty:NTF&}|hdclindex{390}{}}{357}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_tmpa_seq={\verbatim@font !\verb*&!\tl&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{390}{}}{357}
+\indexentry{PassOptionsToPackage={\verbatim@font !\verb*&!\PassOptionsToPackage&}|hdclindex{392}{}}{359}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_use:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&use:Nn&}|hdclindex{392}{}}{359}
+\indexentry{seq commands:=\pkg{seq} commands:>tmpa_seq={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&seq&}|hdclindex{392}{}}{359}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{394}{}}{361}
+\indexentry{RequirePackage={\verbatim@font !\verb*&!\RequirePackage&}|hdclindex{395}{}}{362}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:Nn&}|hdclindex{398}{}}{365}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_loaded_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&loaded&!\_!\verb*&seq&}|hdclindex{398}{}}{365}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset:Nn&}|hdclindex{401}{}}{368}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{401}{}}{368}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{402}{}}{369}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{402}{}}{369}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{402}{}}{369}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{404}{}}{371}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{404}{}}{371}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{404}{}}{371}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{406}{}}{373}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_generate_variant:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&generate&!\_!\verb*&variant:Nn&}|hdclindex{410}{}}{377}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_to_load:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&to&!\_!\verb*&load:n&}|hdclindex{411}{main}}{378}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_to_load:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&to&!\_!\verb*&load:nn&}|hdclindex{411}{main}}{378}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{412}{}}{378}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:NnTF={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:NnTF&}|hdclindex{414}{}}{380}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_to_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&to&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{414}{}}{380}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_dag_error:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&dag&!\_!\verb*&error:n&}|hdclindex{416}{}}{382}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset:Nn&}|hdclindex{419}{}}{385}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{419}{}}{385}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_exist:NTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&exist:NTF&}|hdclindex{420}{}}{386}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{420}{}}{386}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{420}{}}{386}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{422}{}}{388}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{422}{}}{388}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{422}{}}{388}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{424}{}}{390}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_loaded_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&loaded&!\_!\verb*&seq&}|hdclindex{424}{}}{390}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_load:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&load:n&}|hdclindex{431}{}}{397}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new_protected:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new&!\_!\verb*&protected:Nn&}|hdclindex{434}{}}{400}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{436}{}}{402}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&set:Nn&}|hdclindex{437}{}}{403}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{437}{}}{403}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_new_var:Nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&new&!\_!\verb*&var:Nn&}|hdclindex{438}{}}{404}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{438}{}}{404}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{438}{}}{404}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset:Nn={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset:Nn&}|hdclindex{439}{}}{405}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{439}{}}{405}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{439}{}}{405}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{440}{}}{406}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_include_packages:={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&include&!\_!\verb*&packages:&}|hdclindex{444}{main}}{410}
+\indexentry{cs commands:=\pkg{cs} commands:>cs_new:Nn={\verbatim@font !\verb*&!\cs&!\_!\verb*&new:Nn&}|hdclindex{445}{}}{410}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_until_do:nn={\verbatim@font !\verb*&!\bool&!\_!\verb*&until&!\_!\verb*&do:nn&}|hdclindex{447}{}}{412}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_empty_p:N={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&empty&!\_!\verb*&p:N&}|hdclindex{447}{}}{412}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_queue_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&queue&!\_!\verb*&seq&}|hdclindex{447}{}}{412}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{449}{}}{414}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_gpop_left:NN={\verbatim@font !\verb*&!\seq&!\_!\verb*&gpop&!\_!\verb*&left:NN&}|hdclindex{450}{}}{415}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_queue_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&queue&!\_!\verb*&seq&}|hdclindex{450}{}}{415}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{450}{}}{415}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset&!\_!\verb*&eq:NN&}|hdclindex{451}{}}{416}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{451}{}}{416}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{451}{}}{416}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{452}{}}{417}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{454}{}}{419}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{454}{}}{419}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{454}{}}{419}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_prep_load:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&prep&!\_!\verb*&load:n&}|hdclindex{456}{}}{421}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{456}{}}{421}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_map_inline:Nn={\verbatim@font !\verb*&!\seq&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{460}{}}{425}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{460}{}}{425}
+\indexentry{seq commands:=\pkg{seq} commands:>seq_if_in:NnTF={\verbatim@font !\verb*&!\seq&!\_!\verb*&if&!\_!\verb*&in:NnTF&}|hdclindex{462}{}}{427}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_to_load_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&to&!\_!\verb*&load&!\_!\verb*&seq&}|hdclindex{462}{}}{427}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_to_load:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&to&!\_!\verb*&load:n&}|hdclindex{464}{}}{429}
+\indexentry{declpkg={\verbatim@font !\verb*&!\declpkg&}|hdclindex{468}{main}}{433}
+\indexentry{NewDocumentCommand={\verbatim@font !\verb*&!\NewDocumentCommand&}|hdclindex{469}{}}{433}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_seq_ginsert:NnTF={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&seq&!\_!\verb*&ginsert:NnTF&}|hdclindex{471}{}}{435}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_package_seq={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&package&!\_!\verb*&seq&}|hdclindex{471}{}}{435}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_multiple_declare_error:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&multiple&!\_!\verb*&declare&!\_!\verb*&error:n&}|hdclindex{473}{}}{437}
+\indexentry{IfBooleanTF={\verbatim@font !\verb*&!\IfBooleanTF&}|hdclindex{476}{}}{440}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_not_load:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&not&!\_!\verb*&load:nn&}|hdclindex{478}{}}{442}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_should_load:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&should&!\_!\verb*&load:nn&}|hdclindex{480}{}}{444}
+\indexentry{IfValueT={\verbatim@font !\verb*&!\IfValueT&}|hdclindex{483}{}}{447}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{485}{}}{449}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{486}{}}{450}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{486}{}}{450}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{487}{}}{451}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{487}{}}{451}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_option:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&option:nn&}|hdclindex{489}{}}{453}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{491}{}}{455}
+\indexentry{IfValueT={\verbatim@font !\verb*&!\IfValueT&}|hdclindex{494}{}}{458}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{496}{}}{460}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{497}{}}{461}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{497}{}}{461}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{498}{}}{462}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{498}{}}{462}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_prereq:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&prereq:nn&}|hdclindex{500}{}}{464}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{502}{}}{466}
+\indexentry{IfValueT={\verbatim@font !\verb*&!\IfValueT&}|hdclindex{505}{}}{469}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{507}{}}{471}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{508}{}}{472}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{508}{}}{472}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{509}{}}{473}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{509}{}}{473}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_postreq:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&postreq:nn&}|hdclindex{511}{}}{475}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{513}{}}{477}
+\indexentry{IfValueT={\verbatim@font !\verb*&!\IfValueT&}|hdclindex{516}{}}{480}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{518}{}}{482}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{519}{}}{483}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{519}{}}{483}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{520}{}}{484}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{520}{}}{484}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_coreq:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&coreq:nn&}|hdclindex{522}{}}{486}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{524}{}}{488}
+\indexentry{IfValueT={\verbatim@font !\verb*&!\IfValueT&}|hdclindex{528}{}}{492}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{530}{}}{494}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{531}{}}{495}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{531}{}}{495}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{532}{}}{496}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{532}{}}{496}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_antireq:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&antireq:nn&}|hdclindex{534}{}}{498}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{536}{}}{500}
+\indexentry{IfValueT={\verbatim@font !\verb*&!\IfValueT&}|hdclindex{539}{}}{503}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{541}{}}{505}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{542}{}}{506}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{542}{}}{506}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{543}{}}{507}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{543}{}}{507}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_load_before:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&load&!\_!\verb*&before:nn&}|hdclindex{545}{}}{509}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{547}{}}{511}
+\indexentry{IfValueT={\verbatim@font !\verb*&!\IfValueT&}|hdclindex{550}{}}{514}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{552}{}}{516}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{553}{}}{517}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{553}{}}{517}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{554}{}}{518}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{554}{}}{518}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_load_after:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&load&!\_!\verb*&after:nn&}|hdclindex{556}{}}{520}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{558}{}}{522}
+\indexentry{IncludePackages={\verbatim@font !\verb*&!\IncludePackages&}|hdclindex{561}{main}}{525}
+\indexentry{NewDocumentCommand={\verbatim@font !\verb*&!\NewDocumentCommand&}|hdclindex{562}{}}{525}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_include_packages:={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&include&!\_!\verb*&packages:&}|hdclindex{562}{}}{525}
+\indexentry{AddOptionsToPackage={\verbatim@font !\verb*&!\AddOptionsToPackage&}|hdclindex{563}{main}}{526}
+\indexentry{RemoveOptionsToPackage={\verbatim@font !\verb*&!\RemoveOptionsToPackage&}|hdclindex{563}{main}}{526}
+\indexentry{NewDocumentCommand={\verbatim@font !\verb*&!\NewDocumentCommand&}|hdclindex{564}{}}{526}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{566}{}}{528}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{567}{}}{529}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{567}{}}{529}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{568}{}}{530}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{568}{}}{530}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_option:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&option:nn&}|hdclindex{570}{}}{532}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{572}{}}{534}
+\indexentry{NewDocumentCommand={\verbatim@font !\verb*&!\NewDocumentCommand&}|hdclindex{575}{}}{537}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{577}{}}{539}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{578}{}}{540}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{578}{}}{540}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_map_inline:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&map&!\_!\verb*&inline:Nn&}|hdclindex{579}{}}{541}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{579}{}}{541}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_remove_option:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&remove&!\_!\verb*&option:nn&}|hdclindex{581}{}}{543}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{583}{}}{545}
+\indexentry{AfterAll={\verbatim@font !\verb*&!\AfterAll&}|hdclindex{585}{main}}{547}
+\indexentry{BeforeAll={\verbatim@font !\verb*&!\BeforeAll&}|hdclindex{585}{main}}{547}
+\indexentry{NewDocumentCommand={\verbatim@font !\verb*&!\NewDocumentCommand&}|hdclindex{586}{}}{547}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{588}{}}{549}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{589}{}}{550}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{589}{}}{550}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda:n&}|hdclindex{590}{}}{551}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_until_do:nn={\verbatim@font !\verb*&!\bool&!\_!\verb*&until&!\_!\verb*&do:nn&}|hdclindex{592}{}}{553}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_if_empty_p:N={\verbatim@font !\verb*&!\clist&!\_!\verb*&if&!\_!\verb*&empty&!\_!\verb*&p:N&}|hdclindex{592}{}}{553}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{592}{}}{553}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_include_packages:={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&include&!\_!\verb*&packages:&}|hdclindex{561}{usage}}{15}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_pop:NN={\verbatim@font !\verb*&!\clist&!\_!\verb*&pop:NN&}|hdclindex{594}{}}{555}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{594}{}}{555}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{594}{}}{555}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda:n&}|hdclindex{595}{}}{556}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_post_hook:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&post&!\_!\verb*&hook:nn&}|hdclindex{595}{}}{556}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{595}{}}{556}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{595}{}}{556}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{595}{}}{556}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{595}{}}{556}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{597}{}}{558}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{599}{}}{560}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{599}{}}{560}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{599}{}}{560}
+\indexentry{NewDocumentCommand={\verbatim@font !\verb*&!\NewDocumentCommand&}|hdclindex{602}{}}{563}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{604}{}}{565}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{605}{}}{566}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{605}{}}{566}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda:n&}|hdclindex{606}{}}{567}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_until_do:nn={\verbatim@font !\verb*&!\bool&!\_!\verb*&until&!\_!\verb*&do:nn&}|hdclindex{608}{}}{569}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_if_empty_p:N={\verbatim@font !\verb*&!\clist&!\_!\verb*&if&!\_!\verb*&empty&!\_!\verb*&p:N&}|hdclindex{608}{}}{569}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{608}{}}{569}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_pop:NN={\verbatim@font !\verb*&!\clist&!\_!\verb*&pop:NN&}|hdclindex{610}{}}{571}
+\indexentry{clist commands:=\pkg{clist} commands:>tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{610}{}}{571}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{610}{}}{571}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&lambda:n&}|hdclindex{611}{}}{572}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_pre_hook:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&pre&!\_!\verb*&hook:nn&}|hdclindex{611}{}}{572}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{611}{}}{572}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpb_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{611}{}}{572}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{611}{}}{572}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{611}{}}{572}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{613}{}}{574}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{615}{}}{576}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_use:N={\verbatim@font !\verb*&!\tl&!\_!\verb*&use:N&}|hdclindex{615}{}}{576}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{615}{}}{576}
+\indexentry{AfterAny={\verbatim@font !\verb*&!\AfterAny&}|hdclindex{617}{main}}{578}
+\indexentry{BeforeAny={\verbatim@font !\verb*&!\BeforeAny&}|hdclindex{617}{main}}{578}
+\indexentry{NewDocumentCommand={\verbatim@font !\verb*&!\NewDocumentCommand&}|hdclindex{618}{}}{578}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{620}{}}{580}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{621}{}}{581}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{621}{}}{581}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_transient_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&transient&!\_!\verb*&lambda:n&}|hdclindex{622}{}}{582}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&set&!\_!\verb*&eq:NN&}|hdclindex{623}{}}{583}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{623}{}}{583}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{623}{}}{583}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_until_do:nn={\verbatim@font !\verb*&!\bool&!\_!\verb*&until&!\_!\verb*&do:nn&}|hdclindex{625}{}}{585}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_if_empty_p:N={\verbatim@font !\verb*&!\clist&!\_!\verb*&if&!\_!\verb*&empty&!\_!\verb*&p:N&}|hdclindex{625}{}}{585}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{625}{}}{585}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_pop:NN={\verbatim@font !\verb*&!\clist&!\_!\verb*&pop:NN&}|hdclindex{627}{}}{587}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{627}{}}{587}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{627}{}}{587}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset&!\_!\verb*&eq:NN&}|hdclindex{628}{}}{588}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{628}{}}{588}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{628}{}}{588}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset&!\_!\verb*&eq:NN&}|hdclindex{629}{}}{589}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{629}{}}{589}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{629}{}}{589}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{630}{}}{590}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_post_hook:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&post&!\_!\verb*&hook:nn&}|hdclindex{631}{}}{591}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{631}{}}{591}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{631}{}}{591}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{632}{}}{592}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{634}{}}{594}
+\indexentry{NewDocumentCommand={\verbatim@font !\verb*&!\NewDocumentCommand&}|hdclindex{637}{}}{597}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{639}{}}{599}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_set:Nn={\verbatim@font !\verb*&!\clist&!\_!\verb*&set:Nn&}|hdclindex{640}{}}{600}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{640}{}}{600}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_transient_lambda:n={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&transient&!\_!\verb*&lambda:n&}|hdclindex{641}{}}{601}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_set_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&set&!\_!\verb*&eq:NN&}|hdclindex{642}{}}{602}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{642}{}}{602}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_last_lambda_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&last&!\_!\verb*&lambda&!\_!\verb*&tl&}|hdclindex{642}{}}{602}
+\indexentry{bool commands:=\pkg{bool} commands:>bool_until_do:nn={\verbatim@font !\verb*&!\bool&!\_!\verb*&until&!\_!\verb*&do:nn&}|hdclindex{644}{}}{604}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_if_empty_p:N={\verbatim@font !\verb*&!\clist&!\_!\verb*&if&!\_!\verb*&empty&!\_!\verb*&p:N&}|hdclindex{644}{}}{604}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{644}{}}{604}
+\indexentry{clist commands:=\pkg{clist} commands:>clist_pop:NN={\verbatim@font !\verb*&!\clist&!\_!\verb*&pop:NN&}|hdclindex{646}{}}{606}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_clist={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&clist&}|hdclindex{646}{}}{606}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{646}{}}{606}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset&!\_!\verb*&eq:NN&}|hdclindex{647}{}}{607}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{647}{}}{607}
+\indexentry{tl commands:=\pkg{tl} commands:>tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{647}{}}{607}
+\indexentry{tl commands:=\pkg{tl} commands:>tl_gset_eq:NN={\verbatim@font !\verb*&!\tl&!\_!\verb*&gset&!\_!\verb*&eq:NN&}|hdclindex{648}{}}{608}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{648}{}}{608}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\l&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{648}{}}{608}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{649}{}}{609}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_add_pre_hook:nn={\verbatim@font !\verb*&!\&!\_!\_!\verb*&declpkg&!\_!\verb*&add&!\_!\verb*&pre&!\_!\verb*&hook:nn&}|hdclindex{650}{}}{610}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpa_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpa&!\_!\verb*&tl&}|hdclindex{650}{}}{610}
+\indexentry{declpkg internal commands:=\pkg{declpkg} internal commands:>declpkg_tmpb_tl={\verbatim@font !\verb*&!\g&!\_!\_!\verb*&declpkg&!\_!\verb*&tmpb&!\_!\verb*&tl&}|hdclindex{650}{}}{610}
+\indexentry{group commands:=\pkg{group} commands:>group_begin:={\verbatim@font !\verb*&!\group&!\_!\verb*&begin:&}|hdclindex{651}{}}{611}
+\indexentry{group commands:=\pkg{group} commands:>group_end:={\verbatim@font !\verb*&!\group&!\_!\verb*&end:&}|hdclindex{653}{}}{613}

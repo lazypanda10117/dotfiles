@@ -1,3 +1,11 @@
+# Useful misc alias related to UW
+
+alias uw='ssh hykam@linux.student.cs.uwaterloo.ca'
+alias makeStructure='~/.utils/gen_course_struct.sh'
+
+
+# Useful alias for university courses
+
 alias STUDY='cd ~/Dropbox/University/Study'
 alias CS='cd ~/Dropbox/University/Study/Computer\ Science/'
 alias PMATH='cd ~/Dropbox/University/Study/Pure\ Mathematics/'
@@ -6,14 +14,13 @@ alias CO='cd ~/Dropbox/University/Study/Combinatorics'
 # Fall 2019 Courses
 alias CO250='cd ~/Dropbox/University/Study/Combinatorics/CO\ 250/'
 alias EN108D='cd ~/Dropbox/University/Study/English/ENGL\ 108D/'
-alias PM351='cd ~/Dropbox/University/Study/Pure\ Mathematics/PMath\ 351/'
+alias PM351='cd ~/Dropbox/University/Study/Pure\ Mathematics/PMATH\ 351/'
 alias CS370='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 370/'
 alias CS251='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 251/'
 alias CS341='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 341/'
 
 # Winter 2020 Courses
 alias CS485='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 485/'
-
 
 # Spring 2020 Courses
 alias CS350='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 350/'

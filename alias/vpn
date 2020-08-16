@@ -1,0 +1,7 @@
+# Some VPN alias (for Proton VPN)
+
+alias vpnc='sudo protonvpn connect --fastest'
+alias vpncc='sudo protonvpn connect --cc'
+alias vpnca='sudo protonvpn connect --cc CA'
+alias vpnd='sudo protonvpn disconnect'
+alias vpninfo='sudo protonvpn'

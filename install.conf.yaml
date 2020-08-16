@@ -24,6 +24,11 @@
     ~/.zshrc:                               zsh/zshrc
     ~/.zprofile:                            zsh/zprofile
 
+    # alias
+    ~/.alias/:                              
+      glob: true
+      path: alias/*
+
     # ===
     # Some Styling
     # ===
@@ -60,9 +65,14 @@
     # ~/.config/mpv/scripts:                  mpv/scripts
 
     # asymptote
-    ~/.config/asy:
+    ~/.config/asy/:
+      glob: true
+      path: asy/*
+
     # latex
-    ~/texmf/tex/latex/:                     latex/
+    ~/texmf/tex/latex/:                     
+      glob: true
+      path: latex/*
 
     # latexmk
     ~/.config/latexmk/latexmkrc:            others/latexmkrc
@@ -72,6 +82,8 @@
     ~/.config/neofetch/config:              others/neofetch.conf
     # htop
     ~/.config/htop/htoprc:                  others/htoprc
+    # rofi
+    ~/.config/rofi/config:                  others/rofi.conf
 
     # oh-my-zsh
     ~/.oh-my-zsh/themes/dieter.zsh-theme:   oh-my-zsh/themes/dieter.zsh-theme
