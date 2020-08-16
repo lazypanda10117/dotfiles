@@ -10,19 +10,28 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/bin:
+    # ~/bin:
 
     # ===
     # Shells
     # ===
 
     # bash
-    ~/.bashrc:                              bash/bashrc
-    ~/.bash_profile:                        bash/bash_profile
+    ~/.bashrc:                              
+        force: true                              
+        path: bash/bashrc
+    ~/.bash_profile:                        
+        force: true                              
+        path: bash/bash_profile
 
     # zsh
-    ~/.zshrc:                               zsh/zshrc
-    ~/.zprofile:                            zsh/zprofile
+    ~/.zshrc: 
+        force: true                              
+        path: zsh/zshrc
+
+    ~/.zprofile:                            
+        force: true                              
+        path: zsh/zprofile
 
     # alias
     ~/.alias/:                              
@@ -86,4 +95,6 @@
     ~/.config/rofi/config:                  others/rofi.conf
 
     # oh-my-zsh
-    ~/.oh-my-zsh/themes/dieter.zsh-theme:   oh-my-zsh/themes/dieter.zsh-theme
+    ~/.oh-my-zsh/themes/dieter.zsh-theme:
+        force: true
+        path: oh-my-zsh/themes/dieter.zsh-theme
