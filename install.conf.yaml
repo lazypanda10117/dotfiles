@@ -103,3 +103,9 @@
     ~/.oh-my-zsh/themes/dieter.zsh-theme:
         force: true
         path: oh-my-zsh/themes/dieter.zsh-theme
+
+
+    # Self-made utils
+    ~/.utils/:
+        glob: true
+        path: utils/*

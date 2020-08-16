@@ -1,6 +1,6 @@
 #!/bin/bash
 
-print_file="$HOME/Photos/screenshots/$(date +%Y%m%d-%H%M%S).png"
+print_file="$HOME/Pictures/screenshots/$(date +%Y%m%d-%H%M%S).png"
 print_xclip="xclip -t image/png -selection c"
 maim_cmd="maim"
 
