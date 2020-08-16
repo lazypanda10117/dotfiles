@@ -3,5 +3,8 @@
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
 [submodule "dot-latex"]
-	path = dot-latex
+	path = latex/dot-latex
 	url = https://github.com/lazypanda10117/dot-latex
+[submodule "declpkg"]
+	path = latex/declpkg
+	url = https://gitlab.com/i3wgnit/declpkg

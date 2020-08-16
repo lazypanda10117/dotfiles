@@ -1,0 +1,624 @@
+%%
+%% This is file `declpkg.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% declpkg.dtx  (with options: `package')
+%% ---------------------------------------------------------------
+%% declpkg --- Including packages with dependencies
+%% Maintained by Ting Wei Liu
+%% E-mail: tingwei890@gmail.com
+%% ---------------------------------------------------------------
+%% 
+\RequirePackage{expl3}
+\ProvidesExplPackage{declpkg}{2020-05-10}{1.1}{Including packages with dependencies}
+\RequirePackage { xparse }
+\int_new:N \g__declpkg_lambda_counter_int
+\tl_new:N \g__declpkg_last_lambda_tl
+\cs_new_protected:Nn \__declpkg_lambda:n
+{
+  \tl_gset:Nx \g__declpkg_last_lambda_tl
+  {
+    c__declpkg_lambda_
+    \int_use:N \g__declpkg_lambda_counter_int
+    _tl
+  }
+
+  \tl_const:cn { \tl_use:N \g__declpkg_last_lambda_tl } { #1 }
+  \int_gincr:N \g__declpkg_lambda_counter_int
+}
+\cs_generate_variant:Nn \__declpkg_lambda:n { x }
+\cs_new:Nn \__declpkg_transient_lambda:Nn
+{
+  \__declpkg_lambda:n
+  {
+    \bool_if:NF #1
+    {
+      \bool_gset_true:N #1
+      #2
+    }
+  }
+}
+\cs_generate_variant:Nn \__declpkg_transient_lambda:Nn { cn, Nx, cx }
+
+\cs_new:Nn \__declpkg_transient_lambda:n
+{
+  \group_begin:
+  \tl_set:Nn \l_tmpa_tl
+  {
+    g__declpkg_lambda_
+    \int_use:N \g__declpkg_lambda_counter_int
+    _bool
+  }
+  \bool_new:c { \tl_use:N \l_tmpa_tl }
+
+  \__declpkg_transient_lambda:cn { \tl_use:N \l_tmpa_tl } { #1 }
+  \group_end:
+}
+\cs_generate_variant:Nn \__declpkg_transient_lambda:n { x }
+\cs_new_protected:Nn \__declpkg_new_var:Nn
+{
+  \cs:w #2 _if_exist:NF \cs_end: #1
+  {
+    \cs:w #2 _new:N \cs_end: #1
+  }
+}
+\cs_generate_variant:Nn \__declpkg_new_var:Nn { cn }
+\prg_new_protected_conditional:Nnn \__declpkg_seq_ginsert:Nn { T, F, TF }
+{
+  \__declpkg_new_var:Nn #1 { seq }
+  \seq_if_in:NnTF #1 { #2 }
+  {
+    \prg_return_false:
+  } {
+    \seq_gput_right:Nn #1 { #2 }
+    \prg_return_true:
+  }
+}
+\prg_generate_conditional_variant:Nnn \__declpkg_seq_ginsert:Nn
+{ NV, Nv, No, Nx, cn, cV, cv, co, cx } { T, F, TF }
+
+\cs_new:Nn \__declpkg_seq_ginsert:Nn
+{
+  \__declpkg_seq_ginsert:NnTF #1 { #2 } {} {}
+}
+\cs_generate_variant:Nn \__declpkg_seq_ginsert:Nn { NV, Nv, No, Nx, cn, cV, cv, co, cx }
+\tl_new:N \g__declpkg_tmpa_tl
+\tl_new:N \g__declpkg_tmpb_tl
+\tl_new:N \l__declpkg_tmpa_tl
+\clist_new:N \l__declpkg_tmpa_clist
+\seq_new:N \g__declpkg_packages_seq
+\seq_new:N \g__declpkg_should_load_queue_seq
+\seq_new:N \g__declpkg_should_load_seq
+\seq_new:N \g__declpkg_should_not_load_seq
+\seq_new:N \g__declpkg_loaded_seq
+\seq_new:N \g__declpkg_to_load_seq
+\cs_new:Nn \__declpkg_multiple_declare_error:n
+{
+  \PackageError {declpkg}
+  {
+    Multiple~declare, \MessageBreak
+    packages~should~only~be~declared~once
+  } {
+    Package~ #1 ~is~declared~more~than~once.
+  }
+}
+\cs_new_protected:Nn \__declpkg_should_and_should_not_error:n
+{
+  \PackageError {declpkg}
+  {
+    Package~conflict, \MessageBreak
+    package~ #1 ~is~set~to~be~included~and~not~included
+  } {
+    Package~ #1 ~should~be~included
+    \MessageBreak \space \space
+    \seq_use:cnnn { g__declpkg_ #1 _load_reason_seq }
+    { ~and \MessageBreak \space \space }
+    { , \MessageBreak \space \space }
+    { ,~and \MessageBreak \space \space }
+    ,\MessageBreak
+    but~should~not~be~included
+    \MessageBreak \space \space
+    \seq_use:cnnn { g__declpkg_ #1 _not_load_reason_seq }
+    { ~and \MessageBreak \space \space }
+    { , \MessageBreak \space \space }
+    { ,~and \MessageBreak \space \space }
+    .
+  }
+}
+\cs_new:Nn \__declpkg_late_pre_hook_error:nn
+{
+  \cs_show:c { #2 }
+  \str_set:Nx \l_tmpa_str { \cs_to_str:N \cs:w #2 \cs_end: }
+  \str_show:N \l_tmpa_str
+  \PackageError { declpkg }
+  {
+    Pre-hook~defined~too~late, \MessageBreak
+    pre-hooks~must~be~defined~before~packages~have~loaded
+  } {
+    Pre-hook~ #2 ~ is~defined~after~package~ #1 ~has~loaded.
+  }
+}
+\cs_new_protected:Nn \__declpkg_dag_error:n
+{
+  \tl_gset:Nn \g_tmpa_tl { #1 }
+  \tl_gset:Nn \g_tmpb_tl { #1 }
+  \seq_gclear:N \g_tmpa_seq
+
+  \bool_do_until:nn { \tl_if_eq_p:NN \g_tmpa_tl \g_tmpb_tl }
+  {
+    \seq_gput_left:NV \g_tmpa_seq \g_tmpb_tl
+
+    \group_begin:
+    \tl_set_eq:Nc \l_tmpa_tl
+    {
+      g__declpkg_
+      \tl_use:N \g_tmpb_tl
+      _to_load_parent_tl
+    }
+    \tl_gset_eq:NN \g_tmpb_tl \l_tmpa_tl
+    \group_end:
+  }
+
+  \seq_gput_left:NV \g_tmpa_seq \g_tmpa_tl
+
+  \PackageError { declpkg }
+  {
+    The~dependency~tree~is~not~a~DAG, \MessageBreak
+    including~package~ #1 ~created~a~cycle
+  } {
+    The~cycle~is
+    \MessageBreak \space \space
+    \seq_use:Nn \g_tmpa_seq { ~->~ }
+  }
+}
+\cs_new:Nn \__declpkg_add_option:nn
+{
+  \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _add_options_seq } { #2 }
+}
+
+\cs_new:Nn \__declpkg_remove_option:nn
+{
+  \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _remove_options_seq } { #2 }
+}
+\cs_new:Nn \__declpkg_load_before:nn
+{
+  \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _load_before_seq } { #2 }
+}
+
+\cs_new:Nn \__declpkg_load_after:nn
+{
+  \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _load_after_seq } { #2 }
+}
+\cs_new:Nn \__declpkg_add_coreq:nn
+{
+  \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _coreq_seq } { #2 }
+}
+
+\cs_new_protected:Nn \__declpkg_add_prereq:nn
+{
+  \__declpkg_add_coreq:nn { #1 } { #2 }
+  \__declpkg_load_before:nn { #1 } { #2 }
+}
+
+\cs_new_protected:Nn \__declpkg_add_postreq:nn
+{
+  \__declpkg_add_coreq:nn { #1 } { #2 }
+  \__declpkg_load_after:nn { #1 } { #2 }
+}
+
+\cs_new:Nn \__declpkg_add_antireq:nn
+{
+  \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _antireq_seq } { #2 }
+}
+\cs_new_protected:Nn \__declpkg_should_load:nn
+{
+  \group_begin:
+  \tl_set:Nn \l_tmpa_tl { #2 }
+  \tl_if_blank:VF \l_tmpa_tl
+  {
+    \__declpkg_seq_ginsert:cV { g__declpkg_ #1 _load_reason_seq } \l_tmpa_tl
+  }
+  \group_end:
+
+  % error on conflict
+  \seq_if_in:NnT \g__declpkg_should_not_load_seq { #1 }
+  {
+    \__declpkg_should_and_should_not_error:n { #1 }
+  }
+
+  \seq_if_in:NnF \g__declpkg_should_load_seq { #1 }
+  {
+    \__declpkg_seq_ginsert:Nn \g__declpkg_should_load_queue_seq { #1 }
+  }
+}
+
+\cs_new_protected:Nn \__declpkg_should_not_load:nn
+{
+  \group_begin:
+  \tl_set:Nn \l_tmpa_tl { #2 }
+  \tl_if_blank:VF \l_tmpa_tl
+  {
+    \__declpkg_seq_ginsert:cV { g__declpkg_ #1 _not_load_reason_seq } \l_tmpa_tl
+  }
+  \group_end:
+
+  % error on conflict
+  \group_begin:
+  \seq_concat:NNN \l_tmpa_seq \g__declpkg_should_load_seq \g__declpkg_should_load_queue_seq
+  \seq_if_in:NnT \l_tmpa_seq { #1 }
+  {
+    \__declpkg_should_and_should_not_error:n { #1 }
+  }
+  \group_end:
+
+  \__declpkg_seq_ginsert:Nn \g__declpkg_should_not_load_seq { #1 }
+}
+\cs_new_protected:Nn \__declpkg_add_pre_hook:nn
+{
+  \seq_if_in:NnTF \g__declpkg_loaded_seq { #1 }
+  {
+    \__declpkg_late_pre_hook_error:nn { #1 } { #2 }
+  } {
+    \seq_if_in:NnTF \g__declpkg_should_load_seq { #1 }
+    {
+      \tl_use:c { #2 }
+    } {
+      \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _pre_hook_seq } { #2 }
+    }
+  }
+}
+\cs_generate_variant:Nn \__declpkg_add_pre_hook:nn { nV, nv, nx, Vn, VV, Vv, Vx, vn, vV, vv, vx }
+
+\cs_new_protected:Nn \__declpkg_add_post_hook:nn
+{
+  \seq_if_in:NnTF \g__declpkg_loaded_seq { #1 }
+  {
+    \tl_use:c { #2 }
+  } {
+    \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _post_hook_seq } { #2 }
+  }
+}
+\cs_generate_variant:Nn \__declpkg_add_post_hook:nn { nV, nv, nx, Vn, VV, Vv, Vx, vn, vV, vv, vx }
+\cs_new_protected:Nn \__declpkg_prep_load:n
+{
+  % add to should load
+  \__declpkg_seq_ginsert:Nn \g__declpkg_should_load_seq { #1 }
+
+  % run pre hooks
+  \tl_gset:Nn \g__declpkg_tmpa_tl { g__declpkg_ #1 _pre_hook_seq }
+  \seq_if_exist:cT { \tl_use:N \g__declpkg_tmpa_tl }
+  {
+    \seq_map_inline:cn { \tl_use:N \g__declpkg_tmpa_tl }
+    {
+      \tl_use:c { ##1 }
+    }
+  }
+
+  % setup preorder graph
+  \group_begin:
+  \tl_set:Nn \l_tmpa_tl { g__declpkg_ #1 _load_before_seq }
+  \seq_if_exist:cT { \tl_use:N \l_tmpa_tl }
+  {
+    \seq_map_inline:cn { \tl_use:N \l_tmpa_tl }
+    {
+      \__declpkg_seq_ginsert:cn { g__declpkg_ #1 _preorder_graph_children_seq } { ##1 }
+    }
+  }
+  \group_end:
+
+  \group_begin:
+  \tl_set:Nn \l_tmpa_tl { g__declpkg_ #1 _load_after_seq }
+  \seq_if_exist:cT { \tl_use:N \l_tmpa_tl }
+  {
+    \seq_map_inline:cn { \tl_use:N \l_tmpa_tl }
+    {
+      \__declpkg_seq_ginsert:cn { g__declpkg_ ##1 _preorder_graph_children_seq } { #1 }
+    }
+  }
+  \group_end:
+
+  % load coreqs
+  \group_begin:
+  \tl_set:Nn \l_tmpa_tl { g__declpkg_ #1 _coreq_seq }
+  \seq_if_exist:cT { \tl_use:N \l_tmpa_tl }
+  {
+    \seq_map_inline:cn { \tl_use:N \l_tmpa_tl }
+    {
+      \__declpkg_should_load:nn { ##1 } { per~request~of~#1 }
+    }
+  }
+  \group_end:
+
+  % not load antireqs
+  \group_begin:
+  \tl_set:Nn \l_tmpa_tl { g__declpkg_ #1 _anticoreq_seq }
+  \seq_if_exist:cT { \tl_use:N \l_tmpa_tl }
+  {
+    \seq_map_inline:cn { \tl_use:N \l_tmpa_tl }
+    {
+      \__declpkg_should_not_load:nn { ##1 } { per~request~of~#1 }
+    }
+  }
+  \group_end:
+}
+\cs_generate_variant:Nn \__declpkg_prep_load:n { V, v, x }
+\cs_new_protected:Nn \__declpkg_load:n
+{
+  % require package with options
+  \group_begin:
+  \seq_clear:N \l_tmpa_seq
+  \tl_set:Nn \l_tmpa_tl { g__declpkg_ #1 _add_options_seq }
+  \seq_if_exist:cT { \tl_use:N \l_tmpa_tl }
+  {
+    \seq_set_eq:Nc \l_tmpa_seq { \tl_use:N \l_tmpa_tl }
+    \seq_remove_duplicates:N \l_tmpa_seq
+
+    \tl_set:Nn \l_tmpa_tl { g__declpkg_ #1 _remove_options_seq }
+    \seq_if_exist:cT { \tl_use:N \l_tmpa_tl }
+    {
+      \seq_map_inline:cn { \tl_use:N \l_tmpa_tl }
+      {
+        \seq_remove_all:Nn \l_tmpa_seq { ##1 }
+      }
+    }
+  }
+
+  \seq_if_empty:NF \tl_tmpa_seq
+  {
+    \PassOptionsToPackage { \seq_use:Nn \l_tmpa_seq { , } } { #1 }
+  }
+  \group_end:
+  \RequirePackage { #1 }
+
+  % add to loaded
+  \__declpkg_seq_ginsert:Nn \g__declpkg_loaded_seq { #1 }
+
+  % run post hooks
+  \tl_gset:Nn \g__declpkg_tmpa_tl { g__declpkg_ #1 _post_hook_seq }
+  \seq_if_exist:cT { \tl_use:N \g__declpkg_tmpa_tl }
+  {
+    \seq_map_inline:cn { \tl_use:N \g__declpkg_tmpa_tl }
+    {
+      \tl_use:c { ##1 }
+    }
+  }
+}
+\cs_generate_variant:Nn \__declpkg_load:n { V }
+\cs_new_protected:Nn \__declpkg_to_load:n
+{
+  \__declpkg_seq_ginsert:NnF \g__declpkg_to_load_seq { #1 }
+  {
+    \__declpkg_dag_error:n { #1 }
+  }
+
+  \tl_gset:Nn \g__declpkg_tmpa_tl { g__declpkg_ #1 _preorder_graph_children_seq }
+  \seq_if_exist:cT { \tl_use:N \g__declpkg_tmpa_tl }
+  {
+    \seq_map_inline:cn { \tl_use:N \g__declpkg_tmpa_tl }
+    {
+      \seq_if_in:NnF \g__declpkg_loaded_seq { ##1 }
+      {
+        \__declpkg_to_load:nn { ##1 } { #1 }
+      }
+    }
+  }
+
+  \__declpkg_load:n { #1 }
+}
+
+\cs_new_protected:Nn \__declpkg_to_load:nn
+{
+  \group_begin:
+  \tl_set:Nn \l_tmpa_tl { g__declpkg_ #1 _to_load_parent_tl }
+  \__declpkg_new_var:cn { \tl_use:N \l_tmpa_tl } { tl }
+  \tl_gset:cn { \tl_use:N \l_tmpa_tl } { #2 }
+  \group_end:
+
+  \__declpkg_to_load:n { #1 }
+}
+\cs_new:Nn \__declpkg_include_packages:
+{
+  \bool_until_do:nn { \seq_if_empty_p:N \g__declpkg_should_load_queue_seq }
+  {
+    \group_begin:
+    \seq_gpop_left:NN \g__declpkg_should_load_queue_seq \l__declpkg_tmpa_tl
+    \tl_gset_eq:NN \g__declpkg_tmpa_tl \l__declpkg_tmpa_tl
+    \group_end:
+
+    \seq_if_in:NVF \g__declpkg_should_load_seq \g__declpkg_tmpa_tl
+    {
+      \__declpkg_prep_load:V \g__declpkg_tmpa_tl
+    }
+  }
+
+  \seq_map_inline:Nn \g__declpkg_should_load_seq
+  {
+    \seq_if_in:NnF \g__declpkg_to_load_seq { ##1 }
+    {
+      \__declpkg_to_load:n { ##1 }
+    }
+  }
+}
+\NewDocumentCommand \declpkg { s o m d[] d[] d[] d<> d() d() }
+{
+  \__declpkg_seq_ginsert:NnF \g__declpkg_package_seq { #3 }
+  {
+    \__declpkg_multiple_declare_error:n { #3 }
+  }
+
+  \IfBooleanTF { #1 }
+  {
+    \__declpkg_should_not_load:nn { #3 } { per~user~request }
+  } {
+    \__declpkg_should_load:nn { #3 } { per~user~request }
+  }
+
+  \IfValueT { #2 }
+  {
+    \group_begin:
+    \clist_set:Nn \l_tmpa_clist { #2 }
+    \clist_map_inline:Nn \l_tmpa_clist
+    {
+      \__declpkg_add_option:nn { #3 } { ##1 }
+    }
+    \group_end:
+  }
+
+  \IfValueT { #4 }
+  {
+    \group_begin:
+    \clist_set:Nn \l_tmpa_clist { #4 }
+    \clist_map_inline:Nn \l_tmpa_clist
+    {
+      \__declpkg_add_prereq:nn { #3 } { ##1 }
+    }
+    \group_end:
+  }
+
+  \IfValueT { #5 }
+  {
+    \group_begin:
+    \clist_set:Nn \l_tmpa_clist { #5 }
+    \clist_map_inline:Nn \l_tmpa_clist
+    {
+      \__declpkg_add_postreq:nn { #3 } { ##1 }
+    }
+    \group_end:
+  }
+
+  \IfValueT { #6 }
+  {
+    \group_begin:
+    \clist_set:Nn \l_tmpa_clist { #6 }
+    \clist_map_inline:Nn \l_tmpa_clist
+    {
+      \__declpkg_add_coreq:nn { #3 } { ##1 }
+    }
+    \group_end:
+  }
+
+  \IfValueT { #7 }
+  {
+    \group_begin:
+    \clist_set:Nn \l_tmpa_clist { #7 }
+    \clist_map_inline:Nn \l_tmpa_clist
+    {
+      \__declpkg_add_antireq:nn { #3 } { ##1 }
+    }
+    \group_end:
+  }
+
+  \IfValueT { #8 }
+  {
+    \group_begin:
+    \clist_set:Nn \l_tmpa_clist { #8 }
+    \clist_map_inline:Nn \l_tmpa_clist
+    {
+      \__declpkg_load_before:nn { #3 } { ##1 }
+    }
+    \group_end:
+  }
+
+  \IfValueT { #9 }
+  {
+    \group_begin:
+    \clist_set:Nn \l_tmpa_clist { #9 }
+    \clist_map_inline:Nn \l_tmpa_clist
+    {
+      \__declpkg_load_after:nn { #3 } { ##1 }
+    }
+    \group_end:
+  }
+}
+\NewDocumentCommand \IncludePackages {} { \__declpkg_include_packages: }
+\NewDocumentCommand \AddOptionsToPackage { m m }
+{
+  \group_begin:
+  \clist_set:Nn \l_tmpa_clist { #1 }
+  \clist_map_inline:Nn \l_tmpa_clist
+  {
+    \__declpkg_add_option:nn { #2 } { #1 }
+  }
+  \group_end:
+}
+
+\NewDocumentCommand \RemoveOptionsToPackage { m m }
+{
+  \group_begin:
+  \clist_set:Nn \l_tmpa_clist { #1 }
+  \clist_map_inline:Nn \l_tmpa_clist
+  {
+    \__declpkg_remove_option:nn { #2 } { #1 }
+  }
+  \group_end:
+}
+\NewDocumentCommand \AfterAll { m +m }
+{
+  \group_begin:
+  \clist_set:Nn \l_tmpa_clist { #1 }
+  \__declpkg_lambda:n { #2 }
+
+  \bool_until_do:nn { \clist_if_empty_p:N \l_tmpa_clist }
+  {
+    \clist_pop:NN \l_tmpa_clist \l_tmpb_tl
+    \__declpkg_lambda:x { \__declpkg_add_post_hook:nn { \tl_use:N \l_tmpb_tl } { \tl_use:N \g__declpkg_last_lambda_tl } }
+  }
+  \group_end:
+
+  \tl_use:c { \tl_use:N \g__declpkg_last_lambda_tl }
+}
+
+\NewDocumentCommand \BeforeAll { m +m }
+{
+  \group_begin:
+  \clist_set:Nn \l_tmpa_clist { #1 }
+  \__declpkg_lambda:n { #2 }
+
+  \bool_until_do:nn { \clist_if_empty_p:N \l_tmpa_clist }
+  {
+    \clist_pop:NN \l_tmpa_clist \l_tmpb_tl
+    \__declpkg_lambda:x { \__declpkg_add_pre_hook:nn { \tl_use:N \l_tmpb_tl } { \tl_use:N \g__declpkg_last_lambda_tl } }
+  }
+  \group_end:
+
+  \tl_use:c { \tl_use:N \g__declpkg_last_lambda_tl }
+}
+\NewDocumentCommand \AfterAny { m +m }
+{
+  \group_begin:
+  \clist_set:Nn \l__declpkg_tmpa_clist { #1 }
+  \__declpkg_transient_lambda:n { #2 }
+  \tl_set_eq:NN \l__declpkg_tmpa_tl \g__declpkg_last_lambda_tl
+
+  \bool_until_do:nn { \clist_if_empty_p:N \l__declpkg_tmpa_clist }
+  {
+    \clist_pop:NN \l__declpkg_tmpa_clist \l_tmpa_tl
+    \tl_gset_eq:NN \g__declpkg_tmpa_tl \l_tmpa_tl
+    \tl_gset_eq:NN \g__declpkg_tmpb_tl \l__declpkg_tmpa_tl
+    \group_end:
+    \__declpkg_add_post_hook:VV \g__declpkg_tmpa_tl \g__declpkg_tmpb_tl
+    \group_begin:
+  }
+  \group_end:
+}
+
+\NewDocumentCommand \BeforeAny { m +m }
+{
+  \group_begin:
+  \clist_set:Nn \l__declpkg_tmpa_clist { #1 }
+  \__declpkg_transient_lambda:n { #2 }
+  \tl_set_eq:NN \l__declpkg_tmpa_tl \g__declpkg_last_lambda_tl
+
+  \bool_until_do:nn { \clist_if_empty_p:N \l__declpkg_tmpa_clist }
+  {
+    \clist_pop:NN \l__declpkg_tmpa_clist \l_tmpa_tl
+    \tl_gset_eq:NN \g__declpkg_tmpa_tl \l_tmpa_tl
+    \tl_gset_eq:NN \g__declpkg_tmpb_tl \l__declpkg_tmpa_tl
+    \group_end:
+    \__declpkg_add_pre_hook:VV \g__declpkg_tmpa_tl \g__declpkg_tmpb_tl
+    \group_begin:
+  }
+  \group_end:
+}

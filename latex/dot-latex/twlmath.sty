@@ -1,0 +1,120 @@
+\RequirePackage{twlbase}
+\ProvidesExplPackage{twlmath}{2020-05-10}{}{}
+
+
+%% Options
+
+\DeclareOption* {}
+\ProcessOptions\relax
+
+
+%% Logic
+
+\declpkg { amsmath }
+\declpkg { amsfonts } [ amsmath ]
+\declpkg { amssymb } [ amsmath ]
+\declpkg { mathtools } [ amsmath ]
+\declpkg [ overload ] { empheq } [ amsmath, mathtools ]
+\bool_if:NT \g__twl_physics_bool
+{
+  \declpkg { physics } [ amsmath ]
+}
+\bool_if:NT \g__twl_siunitx_bool
+{
+  \declpkg { siunitx } [ amsmath, booktabs, cancel, caption, cleveref, colortbl,
+  csquotes, helvet, mathpazo, multirow, listings, pgfplots, xcolor ]
+}
+
+
+\AfterAll { mathtools }
+{
+  \bool_if:NF \g__twl_physics_bool
+  {
+    \DeclarePairedDelimiter { \abs } { \lvert } { \rvert }
+    \DeclarePairedDelimiter { \norm } { \lVert } { \rVert }
+  }
+  \DeclarePairedDelimiter { \floor } { \lfloor } { \rfloor }
+  \DeclarePairedDelimiter { \ceil } { \lceil } { \rceil }
+  \DeclarePairedDelimiter { \cycgp } { \langle } { \rangle }
+  \DeclarePairedDelimiter { \ideal } { \langle } { \rangle }
+  \DeclarePairedDelimiter { \gen } { \langle } { \rangle }
+  \DeclarePairedDelimiterX { \innerp } [ 2 ] { \langle } { \rangle } { #1, #2 }
+  \DeclarePairedDelimiter { \set } { \{ } { \} }
+}
+
+
+\NewDocumentCommand { \Tau } {} { \mathcal{T} } %Tau
+\NewDocumentCommand { \NN } {} { \mathbb{N} } %Natural
+\NewDocumentCommand { \ZZ } {} { \mathbb{Z} } %Integer
+\NewDocumentCommand { \QQ } {} { \mathbb{Q} } %Rational
+\NewDocumentCommand { \RR } {} { \mathbb{R} } %Real
+\NewDocumentCommand { \CC } {} { \mathbb{C} } %Complex
+\NewDocumentCommand { \FF } {} { \mathbb{F} } %Field
+\NewDocumentCommand { \HH } {} { \mathbb{H} } %Hypothesis Class
+
+
+\AfterAll { amsmath, amssymb }
+{
+  \DeclareMathOperator { \dom } { dom } %domain
+  \DeclareMathOperator { \img } { img } %image
+  \RenewDocumentCommand { \ker } {} { \operatorname{ker} } %kernel
+  \DeclareMathOperator { \ran } { ran } %range
+  \DeclareMathOperator { \vspan } { span } %span
+
+  \DeclareMathOperator { \Dom } { Dom } %domain
+  \DeclareMathOperator { \Img } { Img } %image
+  \DeclareMathOperator { \Ker } { Ker } %kernel
+  \DeclareMathOperator { \Ran } { Ran } %range
+  \DeclareMathOperator { \vSpan } { Span } %span
+
+  \DeclareMathOperator { \id } { id } %identity
+  \DeclareMathOperator { \ch } { ch } %characteristic
+  \DeclareMathOperator { \ord } { ord } %order
+  \DeclareMathOperator { \poly }{ poly } % polynomial
+  \DeclareMathOperator { \sign } { sign } %sign
+
+  \DeclareMathOperator { \ext } { ext } %extension
+  \DeclareMathOperator* { \pr } { pr } %projection
+  \DeclareMathOperator* { \proj } { proj } %projection
+  \DeclareMathOperator { \pred } { pred } %predecessor
+  \DeclareMathOperator { \lcm } { lcm } %least common multiple
+  \DeclareMathOperator { \conv } { conv } %convex hull
+  \DeclareMathOperator { \epi } { epi } %epigraph
+
+  \DeclareMathOperator { \Hom } { Hom } %homomorphism
+  \DeclareMathOperator { \Iso } { Iso } %isomorphism
+  \DeclareMathOperator { \End } { End } %endomorphism
+  \DeclareMathOperator { \Aut } { Aut } %automorphism
+  \DeclareMathOperator { \Inn } { Inn } %innermorphism
+  \DeclareMathOperator { \Perm } { Perm } %permutation
+
+  \DeclareMathOperator { \Fix } { Fix } %fix
+  \DeclareMathOperator { \Orb } { Orb } %orbit
+  \DeclareMathOperator { \Stab } { Stab } %stabilizer
+
+  \DeclareMathOperator { \GL } { GL } %general linear
+  \DeclareMathOperator { \SL } { SL } %special linear
+  \DeclareMathOperator { \GF } { GF } %galois field
+
+  \DeclareMathOperator* { \Prob } { {\mathbb P} } % Probability
+  \DeclareMathOperator* { \Exp } { {\mathbb E} } % expected value
+  \DeclareMathOperator { \Var } { Var } % variance
+
+  \DeclareMathOperator { \Err } { Err } % error
+  \DeclareMathOperator { \VC } { VC-dim } % VC-dimension
+
+  \DeclareMathOperator* { \argmax } { argmax } % argmax
+  \DeclareMathOperator* { \argmin } { argmin } % argmin
+
+  \RenewDocumentCommand { \Re } {} { \operatorname{Re} } %real
+  \RenewDocumentCommand { \Im } {} { \operatorname{Im} } %imaginary
+
+  \NewDocumentCommand { \liff } {} { \mathbin \leftrightarrow } %ifandonlyif
+  \NewDocumentCommand { \lthen } {} { \mathbin \rightarrow } %ifthen
+
+  \NewDocumentCommand { \ot } {} { \mathbin \leftarrow }
+  \NewDocumentCommand { \dg } {} { ^\circ }
+  \NewDocumentCommand { \inv } {} { ^{-1} }
+  \NewDocumentCommand { \tran } {} { ^\intercal }
+  \NewDocumentCommand { \invtran } {} { ^{-\intercal} }
+}

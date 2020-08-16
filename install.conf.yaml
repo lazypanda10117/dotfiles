@@ -11,8 +11,6 @@
 - link:
     ~/.dotfiles: ''
     ~/bin:
-    # Shortcuts
-    ~/.config/Shortcuts:
 
     # ===
     # Shells
@@ -32,7 +30,7 @@
 
     # xorg
     ~/.xinitrc:                             X11/xinitrc
-    ~/.xprofile:                             X11/xprofile
+    ~/.xprofile:                            X11/xprofile
 
 
     # ===
@@ -49,14 +47,8 @@
     # ===
 
     # i3
-    ~/.config/i3:
-    ~/.config/i3blocks:
-
-    # dwm
-    ~/.config/dwm:
-
-    # ranger
-    ~/.config/ranger:
+    # ~/.config/i3:
+    # ~/.config/i3blocks:
 
     # ===
     # Others
@@ -70,9 +62,8 @@
     # asymptote
     ~/.config/asy:
     # latex
-    # ~/texmf/tex/latex:                      texmf/tex/latex
-    # dunst
-    ~/.config/dunst/dunstrc:                others/dunstrc
+    ~/texmf/tex/latex/:                     latex/
+
     # latexmk
     ~/.config/latexmk/latexmkrc:            others/latexmkrc
     # redshift
