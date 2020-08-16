@@ -14,6 +14,6 @@ $pdf_update_method = 0;
 # $latex = 'latex  %O  --shell-escape %S';
 # $pdflatex = 'pdflatex  %O  --shell-escape %S';
 
-$makeindex = 'makeindex -s "~/texmf/tex/latex/local/lptex/twlindex.ist" %O -o %D %S';
+$makeindex = 'makeindex -s "~/texmf/tex/latex/local/dot-latex/twlindex.ist" %O -o %D %S';
 
 push @generated_exts, 'atfi', 'asy', 'aux', 'fls', 'idx', 'ilg', 'ind', 'log', 'out', 'pbsdat', 'pre', 'prc', 'prv', 'synctex.gz', 'thm', 'toc';

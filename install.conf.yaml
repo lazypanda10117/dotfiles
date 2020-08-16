@@ -20,6 +20,7 @@
     ~/.bashrc:                              
         force: true                              
         path: bash/bashrc
+
     ~/.bash_profile:                        
         force: true                              
         path: bash/bash_profile
@@ -74,9 +75,13 @@
     # ~/.config/mpv/scripts:                  mpv/scripts
 
     # asymptote
-    ~/.config/asy/:
+    ~/.asy/:
       glob: true
-      path: asy/*
+      path: asy/configs/*
+
+    ~/.config/asy/modules/:
+      glob: true
+      path: asy/modules/*
 
     # latex
     ~/texmf/tex/latex/:                     
