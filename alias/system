@@ -1,7 +1,9 @@
 # Useful system alias
 
-
-
+alias kernal_update='sudo apt dist-upgrade' # Update kernal
+alias lib_update='sudo apt update && sudo apt upgrade' # Update all libraries
+alias update_python_pkgs='pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U' # Update Python packages
+alias swap_refresh='sudo swap off | sudo swap on' # Clear swap space
 alias open='nautilus . & disown' # Open File Manager GUI at specified directory
 alias rofi_update='rm ~/.cache/rofi-3.runcache' # Removing ROFI search cache
 

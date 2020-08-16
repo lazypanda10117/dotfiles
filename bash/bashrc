@@ -7,5 +7,7 @@
 
 
 alias ls='ls --color=auto'
-
 alias vi='vim'
+
+PYTHON_BIN_PATH="$(python3 -m site --user-base)/bin"
+PATH="$PATH:$PYTHON_BIN_PATH"

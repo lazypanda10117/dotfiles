@@ -1,0 +1,9 @@
+#!/bin/bash
+
+case ${BLOCK_BUTTON} in
+    1) sudo protonvpn connect --cc CA  ;;
+	3) sudo protonvpn disconnect  ;;
+esac
+
+VPN_STAT=$(python3 ~/.config/i3blocks/scripts/vpn_info.py)
+echo -e ${VPN_STAT}

@@ -7,6 +7,7 @@ case ${action} in
     Lock) gnome-screensaver-command -l;;
     Suspend) systemctl suspend;;
     Shutdown) systemctl poweroff;;
+    Logout) /usr/bin/gnome-session-quit --logout;;
     Reboot) systemctl reboot;;
 esac
 
