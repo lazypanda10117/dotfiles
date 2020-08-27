@@ -11,7 +11,7 @@ label_color=xresource:i3xrocks.label.color
 
 [vpn]
 label=VPN 
-interval=once
+interval=3
 
 [bluetooth]
 label=BT 

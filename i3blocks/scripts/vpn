@@ -5,5 +5,5 @@ case ${BLOCK_BUTTON} in
 	3) sudo protonvpn disconnect  ;;
 esac
 
-VPN_STAT=$(python3 ~/.config/i3blocks/scripts/vpn_info.py)
+VPN_STAT=$(python3 ~/.config/i3blocks/scripts/aux/vpn_info.py)
 echo -e ${VPN_STAT}

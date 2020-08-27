@@ -6,19 +6,3 @@ alias update_python_pkgs='pip3 list --outdated --format=freeze | grep -v '^\-e' 
 alias swap_refresh='sudo swap off | sudo swap on' # Clear swap space
 alias open='nautilus . & disown' # Open File Manager GUI at specified directory
 alias rofi_update='rm ~/.cache/rofi-3.runcache' # Removing ROFI search cache
-
-
-# Useful arch linux alias
-
-# alias wifi='cmst'
-# alias bt='bluetoothctl'
-# alias music='cmus'
-# alias f='ranger' # Stands for file
-# alias update_mirror='sudo reflector --verbose --ipv6 --protocol "https" --country CA --country US --fastest 20 --save /etc/pacman.d/mirrorlist'
-
-# Changing monitors in arch linux
-# _lMon='eDP-1'
-# _hdmi='HDMI-1'
-# alias laptop='xrandr --output $_lMon --auto --output $_hdmi --off'
-# alias monitor='xrandr --output $_lMon --off --output $_hdmi --auto'
-# alias dual='xrandr --output $_lMon --auto --left-of $_hdmi --output $_hdmi --auto'

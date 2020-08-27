@@ -8,5 +8,5 @@ esac
 
 # 2 for connecting to speaker
 
-BT_STAT=$(python3 ~/.config/i3blocks/scripts/bluetooth_info.py)
+BT_STAT=$(python3 ~/.config/i3blocks/scripts/aux/bluetooth_info.py)
 echo -e ${BT_STAT}

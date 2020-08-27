@@ -53,8 +53,8 @@
     # ===
 
     # vim
-    # ~/.vim:                                 vim/vim
-    # ~/.vimrc:                               vim/vimrc
+    ~/.vim:                                 vim/vim
+    ~/.vimrc:                               vim/vimrc
     # ~/.gvimrc:                              vim/gvimrc
 
     # ===
@@ -104,6 +104,10 @@
         force: true
         path: oh-my-zsh/themes/dieter.zsh-theme
 
+    /etc/bluetooth/:
+        force: true
+        glob: true
+        path: bluetooth/* 
 
     # Self-made utils
     ~/.utils/:

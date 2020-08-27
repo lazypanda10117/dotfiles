@@ -29,7 +29,21 @@ alias CS480='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 480/'
 alias CS762='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 762/'
 alias CO342='cd ~/Dropbox/University/Study/Combinatorics/CO\ 342/'
 alias CO351='cd ~/Dropbox/University/Study/Combinatorics/CO\ 351/'
-alias PM441='cd ~/Dropbox/University/Study/Pure\ Mathematics/PMATH\ 441/'
+alias PM441='cd ~/Dropbox/University/Study/Pure\ Mathematics/Pmath\ 441/'
 alias JP101='cd ~/Dropbox/University/Study/Japanese/JAPAN\ 101R/'
 
+
+# Fall 2020 Courses
+alias CO442='cd ~/Dropbox/University/Study/Combinatorics/CO\ 442'
+alias CO749='cd ~/Dropbox/University/Study/Combinatorics/CO\ 749'
+alias PM331='cd ~/Dropbox/University/Study/Pure\ Mathematics/PMath\ 331'
+
+
+# Winter 2021 Courses
+alias CO331='cd ~/Dropbox/University/Study/Combinatorics/CO\ 331'
+alias CO444='cd ~/Dropbox/University/Study/Combinatorics/CO\ 444'
+alias PM348='cd ~/Dropbox/University/Study/Pure\ Mathematics/PMath\ 348-N'
+alias PM352='cd ~/Dropbox/University/Study/Pure\ Mathematics/PMath\ 352'
+alias CS462='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 462'
+alias CS489='cd ~/Dropbox/University/Study/Computer\ Science/CS\ 489'
 

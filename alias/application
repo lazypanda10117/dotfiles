@@ -1,0 +1,6 @@
+# Alias for applications
+
+alias dropbox='python3 ~/.utils/dropbox.py' # Runs dropbox
+
+# Example: fkill discord OR fkill discord 9
+alias fkill='~/.utils/kill_process.sh'
