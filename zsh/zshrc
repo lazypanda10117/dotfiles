@@ -34,9 +34,5 @@ setopt noflowcontrol
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nvim'
 else
-<<<<<<< HEAD
   export EDITOR='vim'
-=======
-  export EDITOR='nvim'
->>>>>>> 0534af8... Updating dotfiles
 fi
