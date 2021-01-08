@@ -1,0 +1,71 @@
+\documentclass[lecture]{twl}
+\usepackage[inline]{asymptote}
+\usepackage{algorithm2e}
+
+
+\title{Course Code: Course Title}
+\date{Term}
+\author{Jeffrey Kam}
+
+
+% Asymptote Settings
+\def\asydir{asy}
+\begin{asydef}
+  import cse5;
+	import node;
+
+	pointpen = black;
+	pathpen = black;
+	pathfontpen = black;
+	anglepen = black;
+	anglefontpen = black;
+	pointfontsize = 10;
+	defaultpen(fontsize(10pt));
+
+	usepackage("amsmath");
+	usepackage("amssymb");
+\end{asydef}
+
+% Drawing a graph
+% \begin{asy}
+% // define style
+% defaultnodestyle=nodestyle();
+% defaultdrawstyle=drawstyle(p=fontsize(8pt)+fontcommand("\ttfamily"), arrow=Arrow(6));
+
+% // define nodes
+% node[] n = ncircles( "$n_0$",
+%         "$n_1$",
+%         "$n_2$",
+%         "$n_3$",
+%         "$n_4$");
+
+% // layout
+% circularlayout(2cm, startangle=90, n);
+
+% // draw nodes
+% draw(n);
+
+% // draw edges
+% draw(n[0]--n[2], n[2]--n[4], n[4]--n[1], n[1]--n[3], n[3]--n[0]);
+% draw(n[0]..bend..n[1], n[1]..bend..n[2], n[2]..bend..n[3], 
+%     n[3]..bend..n[4], n[4]..bend..n[0]);
+% \end{asy}
+
+% Bidirectional proof
+% \begin{proof}
+% 	\ \\
+% 	\noindent $(\Rightarrow)$
+% 	\noindent $(\Leftarrow)$
+% \end{proof}
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\newpage
+\section{First Section}
+
+\printindex
+\end{document}

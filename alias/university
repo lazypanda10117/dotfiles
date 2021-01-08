@@ -1,7 +1,8 @@
 # Useful misc alias related to UW
 
 alias uw='ssh hykam@linux.student.cs.uwaterloo.ca'
-alias makeStructure='~/.utils/gen_course_struct.sh'
+alias gen_course_struct='~/.utils/gen_course_struct.sh'
+alias gen_latex='python3 ~/.utils/gen_latex.py'
 
 
 # Useful alias for university courses
