@@ -1,21 +1,19 @@
 import argparse
 
-from os import subprocess
+import subprocess
 
-argparse.ArgumentParser(description='Generate Latex Files')
-parser.add_argument('type', type=str, default='assignment'
-                    help='file type (i.e. assignment or note')
-parser.add_argument('filename', type=str, required=True)
+parser = argparse.ArgumentParser(description='Generate Latex Files')
+parser.add_argument('filename', type=str, help="file name (i.e. assignment_1)")
+parser.add_argument('-t', '--type', type=str, default='assignment', help='file type (i.e. assignment or note')
 
 args = parser.parse_args()
 
 filetype = args.type
 filename = args.filename
 
-if filetype == 'assignment':
-	subprocess.call(f'cp ~/dotfiles/latex/template/assignment.tex ./{filename}.tex')
-elif filetype == 'note':
-	subprocess.call(f'cp ~/dotfiles/latex/template/note.tex ./{filename}.tex')
+if filetype in ['assignment', 'note']:
+	subprocess.call(f'cp ~/dotfiles/latex/template/{filetype}.tex ./', shell=True)
+	subprocess.call(f'mv ./{filetype}.tex ./{filename}.tex', shell=True)
 else:
 	throw(Exception(f"File type {filetype} does not exist."))
 
