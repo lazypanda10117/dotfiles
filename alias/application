@@ -2,5 +2,7 @@
 
 alias dropbox='python3 ~/.utils/dropbox.py' # Runs dropbox
 
+alias galaxybm='~/.utils/galaxy_bud_manager.bin'
+
 # Example: fkill discord OR fkill discord 9
 alias fkill='~/.utils/kill_process.sh'

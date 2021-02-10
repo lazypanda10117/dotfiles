@@ -1,0 +1,8 @@
+# ignoring
+
+# galaxy buds manager
+galaxy_bud_manager.bin
+
+# dropbox
+dropbox.py
+
