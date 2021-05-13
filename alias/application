@@ -1,8 +1,12 @@
 # Alias for applications
 
-alias dropbox='python3 ~/.utils/dropbox.py' # Runs dropbox
+# alias dropbox='python3 ~/.utils/dropbox.py' # Runs dropbox
 
-alias galaxybm='~/.utils/galaxy_bud_manager.bin & disown'
+# alias galaxybm='~/.utils/galaxy_bud_manager.bin & disown'
 
 # Example: fkill discord OR fkill discord 9
 alias fkill='~/.utils/kill_process.sh'
+
+alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.9-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
+alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.9-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
+
